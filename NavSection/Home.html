@@ -19,7 +19,7 @@
             my hand." <br> <div class="verse">John 10:27-28</div>
         </h3>
     </div>
-    <nav>
+    <nav id="topPage">
       <div class="navContainer">
         <div class="navSection">
         <a href=""><div class="estLogo">East Side Tabernacle</div></a>
@@ -75,6 +75,20 @@
                 <a href=""><button class="portalBtn">Learn More</button></a>
               </div>
             </div>
+            <div class="portal3">
+                <div class="subPortal3">
+                    <h1 class="">Sermons</h1>
+                    <p class="subPortal2Para">
+                        Listen and watch our sermons, podcasts, and learn more about us in and out of season.
+                    </p>
+                    <a href=""><button class="portalBtn3">Enter</button></a>
+                  </div>
+                  <div class="subportal3">
+                    <img class="portalImg3" src="../Black Sheep.jpg" alt="">
+                </div>
+            </div>
+          </div>
+            </div>
           </div>
         </section>
     </main>
@@ -82,21 +96,40 @@
       <div class="containerM">
         <div class="socialMedia">
           <div class="footerList">
-           <a class="social" id="facebook" href="">
-            <i class="fab fa-facebook"></i>
-          </a>
-           <a class="social" id="facebook" href="">
-            <i class="fab fa-facebook"></i>
-          </a>
-           <a class="social" id="facebook" href="">
-            <i class="fab fa-facebook"></i>
+            <a class="social" id="facebook" href="">
+              <i class="fab fa-facebook"></i>
+            </a>
+             <a class="social" id="instagram" href="">
+              <i class="fab fa-instagram"></i>
+            </a>
+             <a class="social" id="spotify" href="">
+              <i class="fab fa-spotify"></i>
+            </a>
+             <a class="social" id="podcast" href="">
+              <i class="fas fa-podcast"></i>
           </a>
           </div>
         </div>
       </div>
     </header>
     <footer>
-
+      <div class="containerF">
+        <div class="footerBar">
+            <div class="topArrow">
+                <a href="#topPage"><i class="fas fa-arrow-up"> Back to Top</i></a>
+            </div>
+            <ul class="mediaList">
+                <a href=""><li class="mediaItem">Contact</li></a>
+                <a href=""><li class="mediaItem">Offering</li></a>
+            </ul>
+            <div>
+                <img class="estLogoF" src="./EST Logo.PNG" alt="">
+                <p class="footerPara">
+                    254 E 2nd St, New York, NY 10009
+                </p>
+            </div>
+        </div>
+    </div>
     </footer>
     <script>
       ScrollReveal({
@@ -109,6 +142,8 @@
 
       ScrollReveal().reveal('.subPortal1', {delay: 500, origin: 'left'});
       ScrollReveal().reveal('.subPortal2', {delay: 700, origin: 'right'});
+      ScrollReveal().reveal('.subportal3', {delay: 500, origin: 'right'});
+      ScrollReveal().reveal('.subPortal3', {delay: 700, origin: 'left'});
 
     </script>
     <script src="app.js"></script>

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Document</title>
-</head>
-<body>
-    <nav>
-        <div class="navContainer">
-          <div class="navSection">
+  </head>
+  <body>
+    <nav id="aboutTop">
+      <div class="navContainer">
+        <div class="navSection">
           <a href=""><div class="estLogo">East Side Tabernacle</div></a>
           <div class="navBar">
             <ul class="itemList">
@@ -24,35 +27,107 @@
               <a href=""><li class="items">Welcome</li></a>
             </ul>
           </div>
-      </div>
         </div>
-      </nav>
-      <main id="aboutSection">
-        <section class="aboutContainer">
-            <div class="imgSection">
-                <img class="aboutImg" src="../Black Sheep.jpg" alt="">
-                <h2>WHO ARE WE</h2>
-                <p>
-                    254 EAST 2ND STREET, NEW YORK, NY 10009 <br>SUNDAY SERVICE - DOORS OPEN AT 9:30AM | 
-                    SERVICE STARTS AT 10:00AM <br>CHILDREN’S CHURCH - EVERY OTHER SUNDAY | REGISTRATION 
-                    STARTS AT 9:45AM <br>WEDNESDAY PRAYER MEETING - DOORS OPEN AT 6:30PM | SERVICE STARTS 
-                    AT 7:00PM
-                </p>
+      </div>
+    </nav>
+    <main id="aboutSection">
+      <section class="aboutContainer">
+        <div class="imgSection">
+          <img class="aboutImg" src="../Black Sheep.jpg" alt="" />
+          <h2>WHO ARE WE</h2>
+          <p>
+            254 EAST 2ND STREET, NEW YORK, NY 10009 <br />SUNDAY SERVICE - DOORS
+            OPEN AT 9:30AM | SERVICE STARTS AT 10:00AM <br />CHILDREN’S CHURCH -
+            EVERY OTHER SUNDAY | REGISTRATION STARTS AT 9:45AM <br />WEDNESDAY
+            PRAYER MEETING - DOORS OPEN AT 6:30PM | SERVICE STARTS AT 7:00PM
+          </p>
+        </div>
+      </section>
+      <section>
+        <div class="introContainer">
+          <div class="introSection">
+            <h2>We’re so glad you’re here!</h2>
+            <p>
+              Welcome to East Side Tabernacle Online! We are so happy that you
+              are here! We want to invite you to watch one of our online
+              services or come in person
+              <strong>(We can promise you, we don't bite)</strong>. If you have
+              a need today, we are here to serve you; so please let us know how
+              we can help!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="displayGallery">
+        <div class="galleryTitle">
+            <h2>GET TO KNOW US</h2>
+        </div>
+        <div class="displayContainer">
+          <div class="gallery">
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>ABNER ROSARIO</h3>
             </div>
-        </section>
-        <section>
-            <div class="introContainer">
-                <div class="introSection">
-                    <h2>We’re so glad you’re here!</h2>
-                    <p>
-                        Welcome to East Side Tabernacle Online! We are so happy that you are here! We want to 
-                        invite you to watch one of our online services or come in person <strong>(We can promise you, we 
-                        don't bite)</strong>. If you have a need today, we are here to serve you; 
-                        so please let us know how we can help!
-                    </p>
-                </div>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>ELIOT DIAZ</h3>
             </div>
-        </section>
-      </main>
-</body>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>PASTOR ABNER AND CATHY ROSARIO</h3>
+            </div>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>ELIOT AND KATIA DIAZ</h3>
+            </div>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>CHARLES AND NICOLE LYNCH</h3>
+            </div>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>ROBERT AND DONNA QUILES</h3>
+            </div>
+            <div class="galleryContainer">
+              <img src="../Black Sheep.jpg" alt="" />
+              <h3>RONNIE AND JENNIFER MOJICA</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="containerF">
+          <div class="footerBar">
+              <div class="topArrow">
+                  <a href="#aboutTop"><i class="fas fa-arrow-up"> Back to Top</i></a>
+              </div>
+              <ul class="mediaList">
+                  <a href=""><li class="mediaItem">Contact</li></a>
+                  <a href=""><li class="mediaItem">Offering</li></a>
+              </ul>
+              <div>
+                  <img class="estLogoF" src="./EST Logo.PNG" alt="">
+                  <p class="footerPara">
+                      254 E 2nd St, New York, NY 10009
+                  </p>
+              </div>
+          </div>
+      </div>
+      </footer>
+      <script>
+        ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+
+      ScrollReveal().reveal('.introSection h2', {delay: 500, origin: 'bottom'});
+      ScrollReveal().reveal('.imgSection h2', {delay: 500, origin: 'bottom'});
+      ScrollReveal().reveal('.imgSection p', {delay: 500, origin: 'bottom'});
+      ScrollReveal().reveal('.gallery', {delay: 600, origin: 'top'});
+    </script>
+  </body>
 </html>
