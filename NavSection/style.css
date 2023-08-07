@@ -245,7 +245,7 @@ a{
 
 .aboutContainer{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 
 .imgSection{
@@ -255,7 +255,7 @@ a{
 
 .aboutImg{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     object-fit: cover ;
     object-position: center;
 }
@@ -273,6 +273,34 @@ a{
     bottom: 420px;
     color: whitesmoke;
     line-height: 2;
+}
+
+/*                   Intro About Section                 */
+
+.introContainer{
+    width: 100%;
+    height: 30vh;
+    background: #636e72;
+}
+
+.introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introSection h2{
+    font-size: 40px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.introSection p{
+    font-size: 20px;
+    padding: 0 55px 0 55px;
+    text-align: center;
+    line-height: 1.9;
 }
 
 
