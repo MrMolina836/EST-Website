@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Library Appliction</title>
+  </head>
+  <body>
+    <div class="preloader">
+        <img class="blackSheep" 
+            src="../Black Sheep.jpg" 
+            alt="">
+        <h3 class="loaderText">
+            "My sheep hear my voice, and I know them, and they follow me: and I give unto them 
+            eternal life; and they shall never perish, neither shall any man pluck them out of 
+            my hand." <br> <div class="verse">John 10:27-28</div>
+        </h3>
+    </div>
+    <nav>
+      <div class="navContainer">
+        <div class="navSection">
+        <a href=""><div class="estLogo">East Side Tabernacle</div></a>
+        <div class="navBar">
+          <ul class="itemList">
+            <a href=""><li class="items">Home</li></a>
+            <a href=""><li class="items">About</li></a>
+            <a href=""><li class="items">Ministries</li></a>
+            <a href=""><li class="items">Sermons</li></a>
+            <a href=""><li class="items">Giving</li></a>
+            <a href=""><li class="items">Events</li></a>
+            <a href=""><li class="items">Welcome</li></a>
+          </ul>
+        </div>
+    </div>
+      </div>
+    </nav>
+    <main id="content">
+        <section id="homeBody">
+            <div class="container">
+                <div class="homeSection">
+                    <img class="homeImg" src="../Home Image.jpg" alt="">
+                   <p class="homeText">
+                    GOD • PEOPLE • US
+                    </p>
+                   <p class="homeSubtext">
+                    WELCOME TO EAST SIDE TABERNACLE <br>WE BELIEVE GOD HAS CALLED THIS 
+                    LOCAL CHURCH TO REPRESENT HIM <br>THROUGH PROCLAIMING THE GOSPEL AND 
+                    DISCIPLE <br>OUR COMMUNITY COME VISIT US! ALL ARE WELCOMED!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="Events">
+          <div class="containerE">
+            <div>
+              <img src="" alt="">
+            </div>
+          </div>
+        </section>
+        <section id="portal">
+          <div class="containerP">
+            <div class="portal1">
+              <div class="subPortal1 ">
+                <img class="portalImg1" src="../Black Sheep.jpg" alt="">
+              </div>
+              <div class="subPortal2">
+                <h1 class="">About</h1>
+                <p class="subPortal2Para">
+                  Learn more about who we are, what our current and future events 
+                  are, and how to contact us.
+                </p>
+                <a href=""><button class="portalBtn">Learn More</button></a>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <header id="socialmediaSection">
+      <div class="containerM">
+        <div class="socialMedia">
+          <div class="footerList">
+           <a class="social" id="facebook" href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+           <a class="social" id="facebook" href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+           <a class="social" id="facebook" href="">
+            <i class="fab fa-facebook"></i>
+          </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer>
+
+    </footer>
+    <script>
+      ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+
+      ScrollReveal().reveal('.subPortal1', {delay: 500, origin: 'left'});
+      ScrollReveal().reveal('.subPortal2', {delay: 700, origin: 'right'});
+
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
