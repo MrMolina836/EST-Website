@@ -400,14 +400,14 @@ html {
 .imgSection h2{
     font-size: 80px;
     color: whitesmoke;
-    bottom: 450px;
+    bottom: 500px;
     position: relative;
 }
 
 .imgSection p{
     font-size: 20px;
     position: relative;
-    bottom: 420px;
+    bottom: 480px;
     color: whitesmoke;
     line-height: 2;
 }
@@ -463,12 +463,13 @@ html {
 
 .gallery{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+    grid-template-columns: repeat(2, 330px);
+    grid-gap: 45px;
 }
 
 .gallery img{
     width: 100%;
+    height: 320px;
 }
 
 .galleryContainer{
