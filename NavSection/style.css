@@ -71,6 +71,13 @@ hr{
     width: 75%;
 }
 
+.Btn{
+    border-radius: 50px;
+    padding: .45rem;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
 
 /*                    Nav Section                   */
 
@@ -192,46 +199,16 @@ hr{
     text-shadow: 2px 2px 3px #000;
     color: whitesmoke;
     bottom: 30px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .subPortal2Para{
     color: white;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     bottom: 20px;
     font-size: 16px;
     text-align: center;
-}
-
-.portalBtn{
-    border-radius: 50px;
-    padding: .39rem;
-    font-size: 15px;
-}
-
-.subPortal2 h1{
-    position: relative;
-    font-size: 45px;
-    text-shadow: 2px 2px 3px #000;
-    color: whitesmoke;
-    bottom: 30px;
-    margin-top: 10px;
-}
-
-.subPortal2Para{
-    color: white;
-    padding: 10px;
-    position: relative;
-    bottom: 20px;
-    font-size: 16px;
-    text-align: center;
-}
-
-.portalBtn{
-    border-radius: 50px;
-    padding: .39rem;
-    font-size: 15px;
 }
 
 .portal3{
@@ -277,7 +254,7 @@ hr{
 }
 
 .portalBtn3{
-   border-radius: 50px;
+    border-radius: 50px;
     padding: .5rem 1rem;
     font-size: 15px;
 }
@@ -528,7 +505,7 @@ hr{
 
 .gallery img{
     width: 100%;
-    height: 320px;
+    height: 390px;
     border-radius: 20px;
 }
 
@@ -645,12 +622,113 @@ hr{
 
 .sermonimgHolder{
     width: 100%;
-    height: 60vh;
+    height: 65vh;
+    position: relative;
 }
 
 .sermonImg{
-    object-fit: cover;
-    object-position: center;
     width: 100%;
-    height: 60vh;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.text{
+    width: 70%;
+    top: 39%;
+    left: 20%;
+    color: whitesmoke;
+    position: absolute;
+    text-align: center;
+    
+}
+
+.text span{
+    display: inline-block;
+    position: relative;
+    font-size: 11vw;
+    font-weight: 700;
+    letter-spacing: 1vw;
+    text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
+    transform: translateY(-100vh);
+    animation: fall 3.3s forwards;
+}
+
+@keyframes fall {
+    100%{
+        transform: translateY(0);
+    }
+}
+
+.text span:nth-child(2){
+    animation-delay: 0.7s;
+}
+.text span:nth-child(3){
+    animation-delay: 1.4s;
+}
+.text span:nth-child(4){
+    animation-delay: 2.1s;
+}
+.text span:nth-child(5){
+    animation-delay: 2.8s;
+}
+.text span:nth-child(6){
+    animation-delay: 3.5s;
+}
+
+.sermonContainer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.sermonVid{
+    height: 80vh;
+    padding: 40px;
+}
+
+.sermonVidContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+
+.sermonVidImg{
+    width: 650px;
+    height: 500px;
+}
+
+.sermonVidImg Img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    left: 90px;
+}
+
+.sermonVidInfo{
+    background: black;
+    height: 300px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    right: 50px;
+}
+
+.sermonVidInfo h1{
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.sermonVidInfo p{
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
 }
