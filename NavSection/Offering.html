@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
@@ -29,5 +30,87 @@
       </div>
         </div>
       </nav>
+      <main>
+        <section class="offeringContainer">
+          <div class="offeringHolder">
+            <img src="../Offering.jpeg" alt="">
+            <div class="offeringTitle"><h1>OFFERING</h1></div>
+          </div>
+        </section>
+        <div class="offeringContent">
+          <div class="offeringInfo">
+            <p class="offeringStatment">
+              Tithes and offering help this church do the work of the Lord. It helps expand the work of The
+              Kingdom. Your offering goes towards maintaining the building and laboring in our community.
+            </p>
+            <i><p class="bibleVerse">
+              "Each of you should give what you have decided in your heart to give, not reluctantly or under 
+              compulsion, for God loves a cheerful giver." <br>-2 Corinthians 9:7
+            </p>
+          </i>
+            <div class="line">
+              <hr>
+            </div>
+            <a href="https://forms.ministryforms.net/embed.aspx?custom-templates=&formId=25734a27-5931-4b09-854e-6c6faa0c774e">
+              <button class="offeringBtn">OFFERING</button>
+            </a>
+            <div class="line">
+              <hr>
+            </div>
+          </div>
+        </div>
+      </main>
+      <header id="socialmediaSection">
+        <div class="containerM">
+          <div class="socialMedia">
+            <div class="footerList">
+              <a class="social" id="facebook" href="">
+                <i class="fab fa-facebook"></i>
+              </a>
+               <a class="social" id="instagram" href="">
+                <i class="fab fa-instagram"></i>
+              </a>
+               <a class="social" id="spotify" href="">
+                <i class="fab fa-spotify"></i>
+              </a>
+               <a class="social" id="podcast" href="">
+                <i class="fas fa-podcast"></i>
+            </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    <footer>
+        <div class="containerF">
+          <div class="footerBar">
+              <div class="topArrow">
+                  <a href="#topPage"><i class="fas fa-arrow-up"> Back to Top</i></a>
+              </div>
+              <ul class="mediaList">
+                  <a href=""><li class="mediaItem">Contact</li></a>
+                  <a href=""><li class="mediaItem">Offering</li></a>
+              </ul>
+              <div>
+                  <img class="estLogoF" src="../EST Logo.PNG" alt="">
+                  <p class="footerPara">
+                      254 E 2nd St, New York, NY 10009
+                  </p>
+              </div>
+          </div>
+      </div>
+      </footer>
+      <script>
+        ScrollReveal({
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+
+      ScrollReveal().reveal('.offeringTitle h1', {delay: 200, origin: 'top'}, { viewFactor: 1 });
+      ScrollReveal().reveal('.bibleVerse', {delay: 700, origin: 'left'}, { viewFactor: 1 });
+      ScrollReveal().reveal('.offeringStatment', {delay: 600, origin: 'right'}, { viewFactor: 1 });
+    </script>
 </body>
 </html>
