@@ -126,10 +126,14 @@ hr{
 }
 
 .homeText{
-    font-size: 80px;
+    font-size: 7vw;
+    font-weight: 700;
+    letter-spacing: 1vw;
+    text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
     color: whitesmoke;
     bottom: 500px;
     position: relative;
+    padding: 0px 60px 0px 60px;
 }
 
 .homeSubtext{
@@ -138,7 +142,7 @@ hr{
     bottom: 470px;
     padding-left: 180px;
     padding-right: 180px;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.9;
 }
 
@@ -400,16 +404,19 @@ hr{
 }
 
 .imgSection h2{
-    font-size: 80px;
+    font-size: 10vw;
+    font-weight: 700;
+    letter-spacing: 1vw;
+    text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
     color: whitesmoke;
-    bottom: 500px;
+    bottom: 600px;
     position: relative;
 }
 
 .imgSection p{
-    font-size: 20px;
+    font-size: 25px;
     position: relative;
-    bottom: 480px;
+    bottom: 440px;
     color: whitesmoke;
     line-height: 2;
 }
@@ -432,14 +439,16 @@ hr{
 .introSection h2{
     font-size: 60px;
     padding: 60px 0 20px 0;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
-    transition: transform 2ms, opacity .3s, -webkit-text-stroke-color 0.5s;
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4,
+    0 0 10px #03bcf4;
 }
 
-.introSection h2:hover{
-    -webkit-text-stroke-color: #aed6ff;
-}
+
 
 .introSection p{
     font-size: 25px;
@@ -469,14 +478,26 @@ hr{
 .galleryTitle h2{
     font-size: 80px;
     line-height: 100px;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 1);
-    transition: transform 1s, opacity 0.5s, -webkit-text-stroke-color 0.5s;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.70em;
+    animation: light 3s linear infinite;
 }
 
-.galleryTitle h2:hover{
-    -webkit-text-stroke-color: #aed6ff;
-}   
+@keyframes light {
+    0%{
+        color: black;
+        text-shadow: none;
+    }
+    100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4,
+        0 0 10px #03bcf4;
+    }
+} 
 
 .galleryHeader{
     font-size: 30px;
@@ -633,7 +654,7 @@ hr{
 }
 
 .text{
-    width: 70%;
+    width: 62%;
     top: 39%;
     left: 20%;
     color: whitesmoke;
@@ -645,12 +666,12 @@ hr{
 .text span{
     display: inline-block;
     position: relative;
-    font-size: 11vw;
+    font-size: 10vw;
     font-weight: 700;
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
     transform: translateY(-100vh);
-    animation: fall 2.3s forwards;
+    animation: fall 1.3s forwards;
 }
 
 @keyframes fall {
@@ -748,7 +769,7 @@ hr{
 }
 
 .calendarText{
-    width: 70%;
+    width: 62%;
     top: 15%;
     left: 20%;
     color: rgba(255, 251, 251, 0.836);
@@ -764,7 +785,7 @@ hr{
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
     transform: translateY(100vh);
-    animation: rise 2.3s forwards;
+    animation: rise 1.3s forwards;
 }
 
 @keyframes rise {
@@ -774,19 +795,22 @@ hr{
 }
 
 .calendarText span:nth-child(2){
-    animation-delay: 0.7s;
+    animation-delay: 0.9s;
 }
 .calendarText span:nth-child(3){
-    animation-delay: 1.4s;
+    animation-delay: 1.2s;
 }
 .calendarText span:nth-child(4){
-    animation-delay: 2.1s;
+    animation-delay: 1.5s;
 }
 .calendarText span:nth-child(5){
-    animation-delay: 2.8s;
+    animation-delay: 1.8s;
 }
 .calendarText span:nth-child(6){
-    animation-delay: 3.5s;
+    animation-delay: 2.1s;
+}
+.calendarText span:nth-child(7){
+    animation-delay: 2.4s;
 }
 
 .hero{
