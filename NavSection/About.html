@@ -12,7 +12,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="primary-header flex">
+    <header id="topPage" class="primary-header flex">
       <div>
         <div class="logo">East Side Tabernacle</div>
       </div>
@@ -25,12 +25,12 @@
           <nav>
             <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
               <li class="active">
-                <a href="#">
+                <a href="./Home.html">
                   <span></span>Home
                 </a>
               </li>
               <li class="active">
-                <a href="./About.html">
+                <a href="#">
                   <span></span>About
                 </a>
               </li>
@@ -106,19 +106,19 @@
           <div class="gallery">
             <div class="galleryContainer">
               <img class="galleryImg" src="../Rosario Self-Pic.jpg" alt="" />
-              <h3>ABNER ROSARIO</h3>
+              <h3 class="name">ABNER ROSARIO</h3>
             </div>
             <div class="galleryContainer">
               <img class="galleryImg" src="../Eliot Self-Pic.jpg" alt="" />
-              <h3>ELIOT DIAZ</h3>
+              <h3 class="name">ELIOT DIAZ</h3>
             </div>
             <div class="galleryContainer">
               <img class="galleryImg" src="../Rosario's.jpg" alt="" />
-              <h3>PASTOR ABNER AND CATHY ROSARIO</h3>
+              <h3 class="name">ABNER AND CATHY ROSARIO</h3>
             </div>
             <div class="galleryContainer">
               <img class="galleryImg" src="../The Diaz's.jpg" alt="" />
-              <h3>ELIOT AND KATIA DIAZ</h3>
+              <h3 class="name">ELIOT AND KATIA DIAZ</h3>
             </div>
         </div>
     </div>
@@ -129,15 +129,15 @@
             <div class="gallery">
             <div class="galleryContainer">
               <img class="galleryImg" src="../The Lynch's.jpg" alt="" />
-              <h3>CHARLES AND NICOLE LYNCH</h3>
+              <h3 class="name">CHARLES AND NICOLE LYNCH</h3>
             </div>
             <div class="galleryContainer">
               <img class="galleryImg" src="../The Quiles's.jpg" alt="" />
-              <h3>ROBERT AND DONNA QUILES</h3>
+              <h3 class="name">ROBERT AND DONNA QUILES</h3>
             </div>
             <div class="galleryContainerRJ">
               <img class="galleryImg" src="../The Mojica's.jpg" alt="" />
-              <h3>RONNIE AND JENNIFER MOJICA</h3>
+              <h3 class="name">RONNIE AND JENNIFER MOJICA</h3>
             </div>
           </div>
       </div>
@@ -196,5 +196,6 @@
       ScrollReveal().reveal('.imgSection p', {delay: 500, origin: 'top'});
       ScrollReveal().reveal('.gallery', {delay: 600, origin: 'top'},{ viewFactor: 1 });
     </script>
+    <script src="app.js"></script>
   </body>
 </html>
