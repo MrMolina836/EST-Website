@@ -121,7 +121,7 @@ hr{
 
 @supports (backdrop-filter: blur(1rem)){
     .primary-navigation{
-        background: hsl(0 0% 100%/ 0.3);
+        background: hsla(0, 0%, 48%, 0.32);
         backdrop-filter: blur(1rem);
     }
 }
