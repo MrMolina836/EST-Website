@@ -5,28 +5,17 @@ window.addEventListener('load', () => {
 
 
 
-const sliders = document.querySelectorAll('.slide-in');
+const primaryNav = document.querySelector('.primary-navigation');
+const navToggle = document.querySelector('.mobile-nav-toggle');
 
-const appearOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px -50px 0px"
-};
+navToggle.addEventListener('click', () => {
+    const visibility = primaryNav.getAttribute('data-visible')
 
-const appearOnScroll = new IntersectionObserver
-(function(
-    entries, 
-    appearOnScroll) {
-    entries.forEach(entry =>{
-        if (!entry.isIntersecting){
-            return;
-        } else{
-            entry.target.classList.add('show');
-            appearOnScroll.unobserve(entry.target);
-        }
-    })
-    }, 
-    appearOptions);
-
-sliders.forEach(slider =>{
-    appearOnScroll.observe(slider);
+    if (visibility ==="false"){
+        primaryNav.setAttribute('data-visible', true);
+        navToggle.setAttribute('aria-expanded', true);
+    }else if (visibility === "true"){
+        primaryNav.setAttribute('data-visible', false);
+        navToggle.setAttribute('aria-expanded', false);
+    }
 })

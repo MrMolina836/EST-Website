@@ -12,24 +12,57 @@
     <title>Document</title>
 </head>
 <body>
-    <nav id="topPage">
-        <div class="navContainer">
-          <div class="navSection">
-          <a href="./Home.html"><div class="estLogo">East Side Tabernacle</div></a>
-          <div class="navBar">
-            <ul class="itemList">
-              <a href="./Home.html"><li class="items">Home</li></a>
-              <a href="./About.html"><li class="items">About</li></a>
-              <a href="./Ministries.html"><li class="items">Ministries</li></a>
-              <a href="./Sermons.html"><li class="items">Sermons</li></a>
-              <a href="#"><li class="items">Giving</li></a>
-              <a href="./Event.html"><li class="items">Events</li></a>
-              <a href=""><li class="items">Welcome</li></a>
-            </ul>
-          </div>
-      </div>
-        </div>
-      </nav>
+  <header class="primary-header flex">
+    <div>
+      <div class="logo">East Side Tabernacle</div>
+    </div>
+        <button class="mobile-nav-toggle"
+         aria-controls="primary-navigation" 
+         aria-expanded="false">
+         <span class="sr-only">Menu</span>
+        </button>
+    
+        <nav>
+          <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
+            <li class="active">
+              <a href="#">
+                <span></span>Home
+              </a>
+            </li>
+            <li class="active">
+              <a href="./About.html">
+                <span></span>About
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Ministries.html">
+                <span></span>Ministries
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Sermons.html">
+                <span></span>Sermons
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Offering.html">
+                <span></span>Offering
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Event.html">
+                <span></span>Events
+              </a>
+            </li>
+            <li class="active">
+              <a href="">
+                <span></span>Welcome
+              </a>
+            </li>
+    
+          </ul>
+        </nav>
+      </header>
       <main>
         <section class="offeringContainer">
           <div class="offeringHolder">

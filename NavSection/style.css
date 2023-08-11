@@ -83,7 +83,92 @@ hr{
     width: 60vw;
 }
 
+.flex{
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
 /*                    Nav Section                   */
+
+#nav{
+    width: 100%;
+}
+
+.logo{
+    margin: 2rem;
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.primary-header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.mobile-nav-toggle{
+    display: none;
+}
+
+.primary-navigation{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: hsl(0 0% 0%/ 0.75);
+    backdrop-filter: blur(1rem);
+    padding-right: 25px;
+}
+
+@supports (backdrop-filter: blur(1rem)){
+    .primary-navigation{
+        background: hsl(0 0% 100%/ 0.3);
+        backdrop-filter: blur(1rem);
+    }
+}
+
+@media (min-width: 35){
+    .primary-navigation{
+        --gap: clamp(1.5rem, 5vw, 3rem);
+        padding-block: 2rem;
+        padding-inline: clamp(3rem, 6vw, 10rem);
+    }
+}
+
+@media (max-width: 35em){
+    .primary-navigation{
+        --gap: 2em;
+        position: fixed;
+        inset: 0 0 0 30%;
+        transform: translateX(100%);
+        flex-direction: column;
+        padding: min(30vh, 10rem) 2rem;
+        z-index: 1000;
+        transition: transform 350ms ease-out;
+    }
+
+    .primary-navigation[data-visible="true"]{
+        transform: translateX(0%);
+    }
+
+    .mobile-nav-toggle{
+        display: block;
+        position: absolute;
+        background: url(../icon-hamburger.svg);
+        background-repeat: no-repeat;
+        background-color: transparent;
+        border: 0;
+        width: 2rem;
+        aspect-ratio: 1;
+        top: 2rem;
+        right: 5rem;
+        z-index: 9999;
+    }
+
+    .mobile-nav-toggle[aria-expanded= "true"]{
+        background-image: url(../icon-close.svg);
+    }
+}
+
 
 .navContainer{
     padding: 10px 5%;
@@ -94,10 +179,6 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.navBar{
-    display: flex;
 }
 
 .estLogo{
@@ -111,29 +192,6 @@ hr{
 .items{
     padding: 5px;
     margin: 10px;
-}
-
-#sideBar{
-    position: absolute;
-    right: 0px;
-    width: 300px;
-    height: 100%;
-    background: #000;
-    
-}
-
-#sideBar ul li{
-    list-style: none;
-    color: #fff;
-    font-size: 20px;
-    padding: 20px 24px;
-}
-
-
-#sideBar .toggleBtn{
-    position: absolute;
-    top: 30px;
-    right: 330px;
 }
 
 
@@ -918,16 +976,13 @@ hr{
 
 /* Small Phones, Tablets, Large smart phones */
 @media (max-width: 768px){
-    .navBar{
-        display: none;
-    }
-    .navContainer{
-        padding: 23px 5%;
-    }
-    .container{
-        height: 100vh;
+    
+    
+    .primary-header{
         width: 100%;
     }
+    
+    
     .homeSection{
         height: 100vh;
     }
