@@ -740,19 +740,22 @@ hr{
 }
 
 .text span:nth-child(2){
-    animation-delay: 0.7s;
+    animation-delay: 0.6s;
 }
 .text span:nth-child(3){
-    animation-delay: 1.4s;
+    animation-delay: 0.9s;
 }
 .text span:nth-child(4){
-    animation-delay: 2.1s;
+    animation-delay: 1.2s;
 }
 .text span:nth-child(5){
-    animation-delay: 2.8s;
+    animation-delay: 1.5s;
 }
 .text span:nth-child(6){
-    animation-delay: 3.5s;
+    animation-delay: 1.8s;
+}
+.text span:nth-child(7){
+    animation-delay: 2.1s;
 }
 
 .sermonContainer{
@@ -1102,6 +1105,27 @@ hr{
 
     .galleryContainerRJ{
         left: 200px;
+    }
+/*             Sermons                   */
+
+    .sermonVid{
+        padding: 40px 40px 70px 40px;
+    }
+    .sermonVidContainer{
+        padding: 90px 0 50px 0;
+    }
+    .sermonVidImg{
+        width: 450px;
+        height: 400px;
+    }
+
+    .sermonVidImg Img{
+        left: 50px;
+    }
+
+    .sermonVidInfo{
+        height: 250px;
+        right: 0;
     }
 }
 
