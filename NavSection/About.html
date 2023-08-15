@@ -68,11 +68,17 @@
         <div class="imgSection">
           <img class="aboutImg" src="../Who Are We.jpg" alt="" />
           <h2>WHO ARE WE</h2>
-          <p>
-            254 EAST 2ND STREET, NEW YORK, NY 10009 <br />SUNDAY SERVICE - DOORS
-            OPEN AT 9:30AM | SERVICE STARTS AT 10:00AM <br />CHILDREN’S CHURCH -
-            EVERY OTHER SUNDAY | REGISTRATION STARTS AT 9:45AM <br />WEDNESDAY
-            PRAYER MEETING - DOORS OPEN AT 6:30PM | SERVICE STARTS AT 7:00PM
+          <p class="address">
+            254 EAST 2ND STREET, NEW YORK, NY 10009
+          </p>
+          <p class="sunday">
+            SUNDAY SERVICE - DOORS OPEN AT 9:30AM | SERVICE STARTS AT 10:00AM
+          </p>
+          <p class="children">
+            CHILDREN’S CHURCH - EVERY OTHER SUNDAY | REGISTRATION STARTS AT 9:45AM
+          </p>
+          <p class="wednesday">
+            WEDNESDAY PRAYER MEETING - DOORS OPEN AT 6:30PM | SERVICE STARTS AT 7:00PM
           </p>
         </div>
       </section>
@@ -193,7 +199,10 @@
 
       ScrollReveal().reveal('.introSection h2', {delay: 500, origin: 'top'});
       ScrollReveal().reveal('.imgSection h2', {delay: 500, origin: 'bottom'});
-      ScrollReveal().reveal('.imgSection p', {delay: 500, origin: 'top'});
+      ScrollReveal().reveal('.address', {delay: 500, origin: 'top'});
+      ScrollReveal().reveal('.sunday', {delay: 500, origin: 'right'});
+      ScrollReveal().reveal('.children', {delay: 500, origin: 'left'});
+      ScrollReveal().reveal('.wednesday', {delay: 500, origin: 'bottom'});
       ScrollReveal().reveal('.gallery', {delay: 600, origin: 'top'},{ viewFactor: 1 });
     </script>
     <script src="app.js"></script>

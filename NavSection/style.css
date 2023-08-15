@@ -477,14 +477,6 @@ hr{
     position: relative;
 }
 
-.imgSection p{
-    font-size: 25px;
-    position: relative;
-    bottom: 440px;
-    color: whitesmoke;
-    line-height: 2;
-}
-
 /*                   Intro About Section                 */
 
 .introContainer{
@@ -1065,14 +1057,6 @@ hr{
         font-size: 8vw;
     }
 
-    .imgSection p{
-        font-size: 20px;
-        bottom: 300px;
-        line-height: 1.5;
-        padding: 0px 100px 0px 100px;
-        text-shadow: 0 15px 35px rgba(0, 0, 0, 4.5);
-    }
-
     .galleryTitle h2{
         animation: none;
         text-shadow: 0 0 10px #03bcf4,
@@ -1205,5 +1189,63 @@ hr{
         width: 11%;
         height: 40px;
         padding-bottom: 0px;
+    }
+
+    /*            About Page           */
+    .imgSection h2{
+        font-size: 10vw;
+        bottom: 360px;
+    }
+    .imgSection p{
+        color: whitesmoke;
+        position: relative;
+        text-align: center;
+        font-size: 17.5px;
+        text-shadow: 0 15px 25px rgb(0, 0, 0);
+    }
+    .address{
+        bottom: 300px;  
+        white-space: nowrap;
+    }
+    .sunday{
+        bottom: 280px;
+    }
+    .children{
+        bottom: 260px;
+    }
+    .wednesday{
+        bottom: 240px; 
+    }
+    .introSection h2{
+        font-size: 40px;
+    }
+    .introSection p{
+        font-size: 20px;
+        padding: 0 40px 80px 40px;
+    }
+    .galleryTitle h2{
+        font-size: 50px;
+        color: white;
+    }
+    .galleryHeader{
+        font-size: 25px;
+        padding: 0px;
+        margin-left: 0px;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .gallery{
+        grid-column-gap: 0px;
+        grid-template-columns: repeat(2, 250px);
+    }
+    .gallery img{
+        width: 200px;
+        height: 250px;
+    }
+    .galleryContainerRJ{
+        left: 120px;
+    }
+    .galleryContainerRJ .name{
+        padding: 0px;
     }
 }
