@@ -1115,7 +1115,7 @@ hr{
         padding: 90px 0 50px 0;
     }
     .sermonVidImg{
-        width: 450px;
+        width: 550px;
         height: 400px;
     }
 
@@ -1131,5 +1131,79 @@ hr{
 
 /* Small Phones */
 @media (max-width: 480px){
-    
+    /*          Home Page           */
+    .homeText{
+        font-size: 7.1vw;
+        bottom: 380px;
+    }
+    .homeSubtext{
+        font-size: 4vw;
+        line-height: 1.3;
+        padding: 0px;
+        bottom: 350px;
+    }
+    .containerP{
+        height: 130vh;
+    }
+    .portal1{
+        left: 20px;
+    }
+    .subPortal1{
+        width: 280px;
+        height: 270px;
+    }
+    .portalImg1{
+        width: 280px;
+        height: 270px;
+    }
+    .subPortal2{
+        height: 200px;
+        border-radius: 0px;
+        width: 300px;
+        right: 40px;
+    }
+    .subPortal2 h1{
+        font-size: 35px;
+        margin-top: 0;
+        padding: 45px 0 5px 0;
+    }
+    .subPortal2Para{
+        padding: 5px;
+    }
+    a{
+        padding-bottom: 10px;
+    }
+    .Btn{
+        font-size: 10px;
+    }
+    .portal3{
+        right: 20px;
+    }
+    .subPortal3{
+        height: 200px;
+        border-radius: 0px;
+        width: 300px;
+        left: 40px;
+    }
+    .subPortal3 h1{
+        font-size: 35px;
+        margin-top: 0;
+        padding: 45px 0 5px 0;
+    }
+    .subportal3{
+        width: 280px;
+        height: 270px;
+    }
+    .portalImg3{
+        width: 280px;
+        height: 270px;
+    }
+    .portalBtn3{
+        font-size: 10px;
+    }
+    .social{
+        width: 11%;
+        height: 40px;
+        padding-bottom: 0px;
+    }
 }
