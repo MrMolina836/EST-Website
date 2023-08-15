@@ -1258,4 +1258,37 @@ hr{
         font-size: 25px;
         padding: 20px 15px 50px 15px;
     }
+
+    /*             Sermons                 */
+    .text span{
+        bottom: -30px;
+    }
+    .sermonVidContainer{
+        width: 480px;
+        align-items: center;
+    }
+    .sermonVid{
+        height: 70vh;
+    }
+    .sermonVidImg{
+        width: 280px;
+        height: 270px;
+        position: relative;
+        right: 60px;
+    }
+    .sermonVidImg Img{
+        width: 280px;
+        height: 270px;
+    }
+    .sermonVidInfo{
+        height: 220px;
+        border-radius: 0px;
+        width: 300px;
+        top: 0;
+        right: 65px;
+    }
+    .sermonVidInfo h1{
+        font-size: 25px;
+    }
+
 }
