@@ -1113,7 +1113,7 @@ hr{
 }
 
 /* Small Phones */
-@media (max-width: 480px){
+@media screen and (max-width: 680px){
     /*          Home Page           */
     .homeText{
         font-size: 7.1vw;
