@@ -974,7 +974,7 @@ hr{
     .mobile-nav-toggle{
         display: block;
         position: absolute;
-        background: url(../icon-hamburger.svg);
+        background: url(./icon-hamburger.svg);
         background-repeat: no-repeat;
         background-color: transparent;
         border: 0;
@@ -986,7 +986,7 @@ hr{
     }
 
     .mobile-nav-toggle[aria-expanded= "true"]{
-        background-image: url(../icon-close.svg);
+        background-image: url(./icon-close.svg);
     }
 
     /*                Home Body              */
@@ -1113,7 +1113,7 @@ hr{
 }
 
 /* Small Phones */
-@media screen and (max-width: 680px){
+@media screen and (max-width: 446px){
     /*          Home Page           */
     .homeText{
         font-size: 7.1vw;
