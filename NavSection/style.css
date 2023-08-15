@@ -1248,4 +1248,14 @@ hr{
     .galleryContainerRJ .name{
         padding: 0px;
     }
+
+    /*           Ministries           */
+    .minTitle h1{
+        font-size: 70px;
+        padding: 0px;
+    }
+    .minTitle p{
+        font-size: 25px;
+        padding: 20px 15px 50px 15px;
+    }
 }
