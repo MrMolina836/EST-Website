@@ -1113,17 +1113,19 @@ hr{
 }
 
 /* Small Phones */
-@media screen and (max-width: 446px){
+@media screen and (max-width: 400px){
     /*          Home Page           */
     .homeText{
-        font-size: 7.1vw;
+        font-size: 25px;
         bottom: 380px;
+        padding: 0px;
     }
     .homeSubtext{
-        font-size: 4vw;
-        line-height: 1.3;
-        padding: 0px;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 0px 5px 0 5px;
         bottom: 350px;
+        text-align: center;
     }
     .containerP{
         height: 130vh;
