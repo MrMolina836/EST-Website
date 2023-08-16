@@ -1115,31 +1115,35 @@ hr{
 /* Small Phones */
 @media screen and (max-width: 400px){
     /*          Home Page           */
+    .mobile-nav-toggle{
+        top: 30px;
+    }
     .homeText{
         font-size: 25px;
         bottom: 380px;
         padding: 0px;
+        bottom: 480px;
     }
     .homeSubtext{
         font-size: 16px;
         line-height: 1.5;
         padding: 0px 5px 0 5px;
-        bottom: 350px;
+        bottom: 450px;
         text-align: center;
     }
     .containerP{
-        height: 130vh;
+        height: 100vh;
     }
     .portal1{
         left: 20px;
     }
     .subPortal1{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
     }
     .portalImg1{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
     }
     .subPortal2{
         height: 200px;
@@ -1148,15 +1152,18 @@ hr{
         right: 40px;
     }
     .subPortal2 h1{
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 0;
-        padding: 45px 0 5px 0;
+        padding: 48px 0 5px 0;
     }
     .subPortal2Para{
-        padding: 5px;
+        padding: 0 2px 0 2px;
+        position: relative;
+        bottom: 28px;
     }
     a{
-        padding-bottom: 10px;
+        position: relative;
+        bottom: 20px;
     }
     .Btn{
         font-size: 10px;
@@ -1171,17 +1178,17 @@ hr{
         left: 40px;
     }
     .subPortal3 h1{
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 0;
         padding: 45px 0 5px 0;
     }
     .subportal3{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
     }
     .portalImg3{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
     }
     .portalBtn3{
         font-size: 10px;
