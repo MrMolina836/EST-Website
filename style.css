@@ -1114,7 +1114,7 @@ hr{
 }
 
 /* Small Phones */
-@media screen and (max-width: 400px){
+@media screen and (min-width: 400px){
     /*          Home Page           */
     .mobile-nav-toggle{
         top: 30px;
