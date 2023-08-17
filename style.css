@@ -1322,18 +1322,20 @@ hr{
 
     /*             Offering Page             */
     .offeringContent{
-        height: 150vh;
+        height: 120vh;
     }
     .offeringHolder h1{
-        bottom: 250px;
+        bottom: 350px;
+        font-size: 30px;
     }
     .offeringInfo .offeringStatment{
         font-size: 23px;
-        padding: 95px 30px 15px 30px ;
+        padding: 95px 10px 15px 10px ;
     }
     .offeringInfo .bibleVerse{
         font-size: 21px;
         padding: 45px 30px 95px 30px;
+        line-height: 1.5;
     }
 
     /*                    Events                 */
