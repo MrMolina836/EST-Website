@@ -1163,10 +1163,11 @@ hr{
     }
     a{
         position: relative;
-        bottom: 20px;
+        
     }
     .Btn{
         font-size: 10px;
+        bottom: 10px;
     }
     .portal3{
         right: 20px;
@@ -1182,6 +1183,7 @@ hr{
         margin-top: 0;
         padding: 45px 0 5px 0;
     }
+    
     .subportal3{
         width: 250px;
         height: 260px;
@@ -1192,6 +1194,7 @@ hr{
     }
     .portalBtn3{
         font-size: 10px;
+        bottom: 20px;
     }
     .social{
         width: 12%;
@@ -1200,10 +1203,6 @@ hr{
     
     .containerF{
         padding: 30px 15px 15px 15px;
-    }
-
-    .footerList{
-        padding-top: 30px;
     }
 
     /*            About Page           */
@@ -1284,35 +1283,42 @@ hr{
 
     /*             Sermons                 */
     .text span{
-        bottom: -30px;
+        bottom: -45px;
+        font-size: 30px;
     }
     .sermonVidContainer{
-        width: 480px;
+        width: 400px;
         align-items: center;
     }
     .sermonVid{
-        height: 70vh;
+        height: 50vh;
     }
     .sermonVidImg{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
         position: relative;
-        right: 60px;
+        left: -70px;
     }
     .sermonVidImg Img{
-        width: 280px;
-        height: 270px;
+        width: 250px;
+        height: 260px;
     }
     .sermonVidInfo{
         height: 220px;
         border-radius: 0px;
-        width: 300px;
+        width: 350px;
         top: 0;
         right: 65px;
+        text-align: center;
     }
     .sermonVidInfo h1{
-        font-size: 25px;
+        font-size: 30px;
+        
     }
+    .sermonVidInfo p{
+        padding: 5px 2px 15px 2px;
+    }
+    
 
     /*             Offering Page             */
     .offeringContent{
