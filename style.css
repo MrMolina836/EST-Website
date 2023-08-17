@@ -943,6 +943,30 @@ hr{
     cursor: pointer;
 }
 
+/*                       Welcome Page                          */
+.welcomeContainer{
+    width: 100%;
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+.photoArray{
+    display: grid;
+    grid-template-areas: 
+     "photoOne photoTwo photoThree"
+     "photoFour photoFive photoSix";
+
+}
+
+.photoArray > div{
+    border: 2px solid #000;
+    height: 300px;
+}
+
+.photoBackground{
+    height: 100%;
+}
+
 
 /* Small Phones, Tablets, Large smart phones */
 @media (max-width: 768px){
