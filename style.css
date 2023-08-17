@@ -1341,12 +1341,14 @@ hr{
     /*                    Events                 */
     .calendarText{
         color: whitesmoke;
+        font-size: 25px;
+        width: 70%;
     }
     .calendarText span{
         font-size: 12vw;
         bottom: -30px;
     }
     .hero{
-        height: 130vh;
+        height: 100%;
     }
 }
