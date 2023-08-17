@@ -495,13 +495,13 @@ hr{
 .introSection h2{
     font-size: 60px;
     padding: 60px 0 20px 0;
-    color: #fff;
-    text-shadow: 0 0 10px #03bcf4,
-    0 0 20px #03bcf4,
-    0 0 40px #03bcf4,
-    0 0 80px #03bcf4,
-    0 0 160px #03bcf4,
-    0 0 10px #03bcf4;
+    color: black;
+    text-shadow: 0 0 10px #fcfc0ca9,
+    0 0 20px #fcfc0c,
+    0 0 40px #fcfc0c,
+    0 0 80px #fcfc0c,
+    0 0 160px #fcfc0c,
+    0 0 10px #fcfc0c;
 }
 
 
@@ -542,12 +542,12 @@ hr{
     }
     100%{
         color: rgba(15, 15, 15, 0.6);
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4,
-        0 0 10px #03bcf4;
+        text-shadow: 0 0 10px #fcfc0c,
+        0 0 20px #fcfc0c,
+        0 0 40px #fcfc0c,
+        0 0 80px #fcfc0c,
+        0 0 160px #fcfc0c,
+        0 0 10px #fcfc0c;
     }
 } 
 
@@ -1059,12 +1059,12 @@ hr{
 
     .galleryTitle h2{
         animation: none;
-        text-shadow: 0 0 10px #03bcf4,
-        0 0 20px #03bcf4,
-        0 0 40px #03bcf4,
-        0 0 80px #03bcf4,
-        0 0 160px #03bcf4,
-        0 0 10px #03bcf4;
+        text-shadow: 0 0 10px #fcfc0c,
+        0 0 20px #fcfc0c,
+        0 0 40px #fcfc0c,
+        0 0 80px #fcfc0c,
+        0 0 160px #fcfc0c,
+        0 0 10px #fcfc0c;
         padding-top: 190px;
     }
 
@@ -1114,26 +1114,26 @@ hr{
 }
 
 /* Small Phones */
-@media screen and (min-width: 400px){
+@media screen and (min-width: 390px){
     /*          Home Page           */
     .mobile-nav-toggle{
-        top: 30px;
+        top: 20px;
     }
     .homeText{
-        font-size: 25px;
-        bottom: 380px;
+        font-size: 9.5vw;
         padding: 0px;
-        bottom: 480px;
+        bottom: 380px;
+        width: 100%;
     }
     .homeSubtext{
         font-size: 16px;
         line-height: 1.5;
         padding: 0px 5px 0 5px;
-        bottom: 450px;
+        bottom: 360px;
         text-align: center;
     }
     .containerP{
-        height: 100vh;
+        height: 119vh;
     }
     .portal1{
         left: 20px;
@@ -1208,8 +1208,8 @@ hr{
 
     /*            About Page           */
     .imgSection h1{
-        font-size: 30px;
-        bottom: 440px;
+        font-size: 12vw;
+        bottom: 360px;
     }
     .imgSection p{
         color: whitesmoke;
@@ -1219,17 +1219,17 @@ hr{
         text-shadow: 0 15px 25px rgb(0, 0, 0);
     }
     .address{
-        bottom: 330px;  
+        bottom: 280px;  
         white-space: nowrap;
     }
     .sunday{
-        bottom: 310px;
+        bottom: 260px;
     }
     .children{
-        bottom: 290px;
+        bottom: 240px;
     }
     .wednesday{
-        bottom: 270px; 
+        bottom: 220px; 
     }
     .introSection h2{
         font-size: 30px;
@@ -1240,7 +1240,7 @@ hr{
     }
     .galleryTitle h2{
         font-size: 35px;
-        color: white;
+        color: black;
     }
     .galleryHeader{
         font-size: 20px;
@@ -1283,16 +1283,20 @@ hr{
     }
 
     /*             Sermons                 */
+    .text{
+        width: 100%;
+        left: 0;
+    }
     .text span{
         bottom: -45px;
-        font-size: 30px;
+        font-size: 12vw
     }
     .sermonVidContainer{
         width: 400px;
         align-items: center;
     }
     .sermonVid{
-        height: 50vh;
+        height: 60vh;
     }
     .sermonVidImg{
         width: 250px;
@@ -1323,11 +1327,11 @@ hr{
 
     /*             Offering Page             */
     .offeringContent{
-        height: 120vh;
+        height: 140vh;
     }
     .offeringHolder h1{
-        bottom: 350px;
-        font-size: 30px;
+        bottom: 280px;
+        font-size: 12vw;
     }
     .offeringInfo .offeringStatment{
         font-size: 23px;
@@ -1335,14 +1339,17 @@ hr{
     }
     .offeringInfo .bibleVerse{
         font-size: 21px;
-        padding: 45px 30px 95px 30px;
+        padding: 45px 30px 75px 30px;
         line-height: 1.5;
+    }
+    .line{
+        padding: 40px;
     }
 
     /*                    Events                 */
     .calendarText{
         color: whitesmoke;
-        font-size: 25px;
+        font-size: 12vw;
         width: 70%;
     }
     .calendarText span{
