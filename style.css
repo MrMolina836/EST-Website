@@ -950,21 +950,44 @@ hr{
     background-color: #ffffff;
 }
 
+.containerHolder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .photoArray{
     display: grid;
     grid-template-areas: 
      "photoOne photoTwo photoThree"
      "photoFour photoFive photoSix";
+    height: 100%;
+    
 
 }
 
 .photoArray > div{
     border: 2px solid #000;
-    height: 300px;
+    height: 100%;
 }
 
 .photoBackground{
     height: 100%;
+    width: 100%;
+}
+
+.videoHolder{
+    position: relative;
+    bottom: 600px;
+    width: 550px;
+    height: 500px;
+    background-color: #000;
+}
+.video{
+    width: 550px;
+    height: 500px;
 }
 
 
