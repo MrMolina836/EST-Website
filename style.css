@@ -55,16 +55,17 @@ a{
     background-color: #f2f1ef;
 }
 
-body{
-    position: relative;
+html, body{
     overflow-x: hidden;
     background-color: #f2f1ef;
-}
-
-html {
     scroll-behavior: smooth;
     touch-action: pan-y;
 }
+
+body{
+    position: relative;
+}
+
 
 hr{
     border-radius: 10px;
