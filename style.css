@@ -1352,4 +1352,7 @@ hr{
     .hero{
         height: 100%;
     }
+    .evo-calendar{
+        width: 90%;
+    }
 }

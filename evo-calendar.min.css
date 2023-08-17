@@ -362,19 +362,7 @@ tr.calendar-body .calendar-day .day[disabled] {
   font-size: 22px;
   font-weight: 600;
 }
-.event-container > .event-info > p.event-title > span {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  font-size: 12px;
-  font-weight: 400;
-  color: #755eb5;
-  border: 1px solid #755eb5;
-  border-radius: 3px;
-  background-color: rgb(237 234 246);
-  padding: 3px 6px;
-  transform: translateY(-50%);
-}
+
 .event-container > .event-info > p.event-desc {
   font-size: 14px;
   margin-top: 5px;
