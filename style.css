@@ -467,7 +467,7 @@ hr{
     object-position: center;
 }
 
-.imgSection h2{
+.imgSection h1{
     font-size: 10vw;
     font-weight: 700;
     letter-spacing: 1vw;
@@ -1050,7 +1050,7 @@ hr{
     
     /*               About Page                */
  
-    .imgSection h2{
+    .imgSection h1{
         bottom: 400px;
         letter-spacing: .5vw;
         font-size: 8vw;
@@ -1207,43 +1207,43 @@ hr{
     }
 
     /*            About Page           */
-    .imgSection h2{
-        font-size: 10vw;
-        bottom: 360px;
+    .imgSection h1{
+        font-size: 30px;
+        bottom: 440px;
     }
     .imgSection p{
         color: whitesmoke;
         position: relative;
         text-align: center;
-        font-size: 17.5px;
+        font-size: 16px;
         text-shadow: 0 15px 25px rgb(0, 0, 0);
     }
     .address{
-        bottom: 300px;  
+        bottom: 330px;  
         white-space: nowrap;
     }
     .sunday{
-        bottom: 280px;
+        bottom: 310px;
     }
     .children{
-        bottom: 260px;
+        bottom: 290px;
     }
     .wednesday{
-        bottom: 240px; 
+        bottom: 270px; 
     }
     .introSection h2{
-        font-size: 40px;
+        font-size: 30px;
     }
     .introSection p{
         font-size: 20px;
         padding: 0 40px 80px 40px;
     }
     .galleryTitle h2{
-        font-size: 50px;
+        font-size: 35px;
         color: white;
     }
     .galleryHeader{
-        font-size: 25px;
+        font-size: 20px;
         padding: 0px;
         margin-left: 0px;
         justify-content: center;
@@ -1251,14 +1251,14 @@ hr{
     }
     .gallery{
         grid-column-gap: 0px;
-        grid-template-columns: repeat(2, 250px);
+        grid-template-columns: repeat(1, 250px);
     }
     .gallery img{
-        width: 200px;
+        width: 250px;
         height: 250px;
     }
     .galleryContainerRJ{
-        left: 120px;
+        left: 0px;
     }
     .galleryContainerRJ .name{
         padding: 0px;
