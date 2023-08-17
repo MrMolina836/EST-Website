@@ -1266,12 +1266,20 @@ hr{
 
     /*           Ministries           */
     .minTitle h1{
-        font-size: 70px;
+        font-size: 60px;
         padding: 0px;
     }
     .minTitle p{
-        font-size: 25px;
+        font-size: 21px;
         padding: 20px 15px 50px 15px;
+    }
+    .minTitle button{
+        font-weight: 700;
+        font-size: 15px;
+        background-color: #fffffe67;
+    }
+    .minSocial{
+        font-size: 30px;
     }
 
     /*             Sermons                 */
