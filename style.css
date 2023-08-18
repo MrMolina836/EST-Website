@@ -48,7 +48,6 @@ a{
     text-decoration: none;
     list-style: none;
     color: rgb(226, 226, 226);
-    text-transform: uppercase;
 }
  
 #content{
@@ -1006,6 +1005,48 @@ hr{
 
 .video{
     width: 100%;
+}
+
+.whatsnextContainer{
+    height: 70vh;
+    width: 100%;
+}
+
+.nextSteps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextSteps h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.optionsContainer{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #000;
+    box-shadow: 5px 5px 10px #555;
+}
+
+.optionsContainer h2{
+    padding: 20px 15px 0 15px;
+    text-transform: uppercase;
+}
+
+.optionsContainer p{
+    padding: 20px 10px 0 10px;
 }
 
 /* Small Phones, Tablets, Large smart phones */
