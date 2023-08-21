@@ -160,7 +160,7 @@ hr{
         width: 2rem;
         aspect-ratio: 1;
         top: 2rem;
-        right: 5rem;
+        right: 2rem;
         z-index: 9999;
     }
 
@@ -1049,188 +1049,12 @@ hr{
 }
 
 /* Small Phones, Tablets, Large smart phones */
-@media (max-width: 768px){
-
-    /*            Home Header               */
-    .logo{
-        font-size: 20px;
-        padding: none;
-    }
-    .primary-header{
-        width: 100%;
-        height: 10vh;
-    }
-
-    .primary-navigation{
-        --gap: 2em;
-        position: fixed;
-        inset: 0 0 0 30%;
-        transform: translateX(100%);
-        flex-direction: column;
-        padding: min(30vh, 10rem) 2rem;
-        z-index: 1000;
-        transition: transform 350ms ease-out;
-    }
-
-    .primary-navigation[data-visible="true"]{
-        transform: translateX(0%);
-    }
-
-    .mobile-nav-toggle{
-        display: block;
-        position: absolute;
-        background: url(./icon-hamburger.svg);
-        background-repeat: no-repeat;
-        background-color: transparent;
-        border: 0;
-        width: 2rem;
-        aspect-ratio: 1;
-        top: 20px;
-        right: 1rem;
-        z-index: 9999;
-    }
-
-    .mobile-nav-toggle[aria-expanded= "true"]{
-        background-image: url(./icon-close.svg);
-    }
-
-    /*                Home Body              */
-
-    .homeSection{
-        height: 100vh;
-    }
-    .homeText{
-        bottom: 450px;
-        letter-spacing: .5vw;
-        font-size: 8vw;
-    }
-    .homeSubtext{
-        font-size: 20px;
-        bottom: 410px;
-        padding: 0px 100px 0px 100px;
-        text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
-    }
-
-    .containerP{
-        height: 160vh;
-    }
-    .portal1{
-        left: 100px;
-    }
-    .subPortal1{
-        width: 300px;
-        height: 400px;
-    }
-    .subPortal2{
-        width: 350px;
-        border-radius: 20px;
-    }
-    .portalImg1{
-        width: 300px;
-        height: 400px;
-    }
-    .portal3{
-        right: -10px;
-    }
-    .subportal3{
-        width: 300px;
-        height: 400px;
-    }
-    .portalImg3{
-        width: 300px;
-        height: 400px;
-    }
-    .subPortal3{
-        width: 350px;
-        height: 200px;
-        border-radius: 20px;
-    }
-    .subPortal3 h1{
-        margin-top: 30px;
-    }
-    .social{
-        width: 7%;
-        height: 50px;
-    }
-    
-    /*               About Page                */
- 
-    .imgSection h1{
-        bottom: 400px;
-        letter-spacing: .5vw;
-        font-size: 8vw;
-    }
-
-    .galleryTitle h2{
-        animation: none;
-        text-shadow: 0 0 10px #fcfc0c,
-        0 0 20px #fcfc0c,
-        0 0 40px #fcfc0c,
-        0 0 80px #fcfc0c,
-        0 0 160px #fcfc0c,
-        0 0 10px #fcfc0c;
-        padding-top: 190px;
-    }
-
-    .displayContainer{
-        padding: 0;
-    }
-
-    .gallery{
-        grid-row-gap: 25px;
-        grid-column-gap: 1px;
-        padding: 50px 0 0 0;
-    }
-
-    .gallery img{
-        width: 300px;
-        height: 300px;
-    }
-
-    .name{
-        padding: 0 40px 0 40px;
-    }
-
-    .galleryContainerRJ{
-        left: 200px;
-    }
-/*             Sermons                   */
-
-    .sermonVid{
-        padding: 40px 40px 70px 40px;
-    }
-    .sermonVidContainer{
-        padding: 90px 0 50px 0;
-    }
-    .sermonVidImg{
-        width: 550px;
-        height: 400px;
-    }
-
-    .sermonVidImg Img{
-        left: 50px;
-    }
-
-    .sermonVidInfo{
-        height: 250px;
-        right: 0;
-    }
-    .hero{
-        height: 100%;
-    }
-    .evo-calendar{
-        width: 100%;
-    }
-}
 
 /* Small Phones */
-@media screen and (min-width: 390px){
+@media (max-width: 480px){
     /*          Home Page           */
-    .mobile-nav-toggle{
-        top: 20px;
-    }
     .homeText{
-        font-size: 9.5vw;
+        font-size: 30px;
         padding: 0px;
         bottom: 380px;
         width: 100%;
@@ -1238,9 +1062,9 @@ hr{
     .homeSubtext{
         font-size: 16px;
         line-height: 1.5;
-        padding: 0px 5px 0 5px;
         bottom: 360px;
         text-align: center;
+        padding: 15px 25px;
     }
     .containerP{
         height: 119vh;
@@ -1314,6 +1138,11 @@ hr{
     
     .containerF{
         padding: 30px 15px 15px 15px;
+    }
+
+    .estLogoF{
+        width: 200px;
+        height: 100px;
     }
 
     /*            About Page           */
