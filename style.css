@@ -1222,8 +1222,8 @@ hr{
 
     /*            About Page           */
     .imgSection h1{
-        font-size: 30px;
-        bottom: 330px;
+        font-size: 12vw;
+        bottom: 360px;
     }
     .imgSection p{
         color: whitesmoke;
@@ -1234,17 +1234,17 @@ hr{
         padding: 0px 15px;
     }
     .address{
-        bottom: 220px;  
+        bottom: 280px;  
         white-space: nowrap;
     }
     .sunday{
-        bottom: 210px;
+        bottom: 270px;
     }
     .children{
-        bottom: 200px;
+        bottom: 260px;
     }
     .wednesday{
-        bottom: 190px; 
+        bottom: 250px; 
     }
     .introSection h2{
         font-size: 30px;
@@ -1282,37 +1282,44 @@ hr{
         bottom: -45px;
         font-size: 12vw
     }
+
+    .sermonContainer p{
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
     .sermonVidContainer{
-        width: 400px;
+        width: 100%;
         align-items: center;
     }
     .sermonVid{
         height: 60vh;
     }
     .sermonVidImg{
-        width: 250px;
-        height: 260px;
+        width: 100%;
+        height: auto;
         position: relative;
-        left: -70px;
+        left: -60px;
     }
     .sermonVidImg Img{
-        width: 250px;
+        width: 100%;
         height: 260px;
     }
     .sermonVidInfo{
-        height: 220px;
+        height: 200px;
         border-radius: 0px;
-        width: 350px;
+        width: 100%;
         top: 0;
-        right: 65px;
+        right: 15px;
         text-align: center;
     }
     .sermonVidInfo h1{
-        font-size: 30px;
+        font-size: 28px;
+        padding: 0 5px;
         
     }
     .sermonVidInfo p{
-        padding: 5px 2px 15px 2px;
+        padding: 25px 10px 20px 10px;
     }
     
 
@@ -1325,11 +1332,11 @@ hr{
         font-size: 12vw;
     }
     .offeringInfo .offeringStatment{
-        font-size: 23px;
+        font-size: 20px;
         padding: 95px 10px 15px 10px ;
     }
     .offeringInfo .bibleVerse{
-        font-size: 21px;
+        font-size: 18px;
         padding: 45px 30px 75px 30px;
         line-height: 1.5;
     }
@@ -1352,5 +1359,11 @@ hr{
     }
     .evo-calendar{
         width: 100%;
+    }
+}
+
+@media (max-width: 375px){
+    .subPortal2 h2{
+        font-size: 25px;
     }
 }
