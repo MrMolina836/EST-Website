@@ -1123,10 +1123,8 @@ hr{
     padding: 20px 10px 0 10px;
 }
 
-/* Small Phones, Tablets, Large smart phones */
-
 /* Small Phones */
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
     /*          Home Page           */
     .homeText{
         font-size: 30px;
@@ -1362,8 +1360,17 @@ hr{
     }
 }
 
-@media (max-width: 375px){
-    .subPortal2 h2{
+@media screen and (max-width: 375px){
+    .subPortal2 h1{
+        font-size: 25px;
+    }
+    .subPortal2Para{
+        font-size: 15px;
+    }
+    .Btn{
+        bottom: 20px;
+    }
+    .subPortal3 h1{
         font-size: 25px;
     }
 }
