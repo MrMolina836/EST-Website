@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <script
       src="https://kit.fontawesome.com/c8e4d183c2.js"
       crossorigin="anonymous"
@@ -27,37 +26,37 @@
             <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
               <li class="active">
                 <a href="./index.html">
-                  <span></span>Home
+                  <span class="homenavBar">Home</span>
                 </a>
               </li>
               <li class="active">
                 <a href="#">
-                  <span></span>About
+                  <span class="homenavBar">About</span>
                 </a>
               </li>
               <li class="active">
                 <a href="./Ministries.html">
-                  <span></span>Ministries
+                  <span class="homenavBar">Ministries</span>
                 </a>
               </li>
               <li class="active">
                 <a href="./Sermons.html">
-                  <span></span>Sermons
+                  <span class="homenavBar">Sermons</span>
                 </a>
               </li>
               <li class="active">
                 <a href="./Offering.html">
-                  <span></span>Offering
+                  <span class="homenavBar">Offering</span>
                 </a>
               </li>
               <li class="active">
                 <a href="./Event.html">
-                  <span></span>Events
+                  <span class="homenavBar">Events</span>
                 </a>
               </li>
               <li class="active">
                 <a href="./Welcome.html">
-                  <span></span>Welcome
+                  <span class="homenavBar">Welcome</span>
                 </a>
               </li>
       
@@ -68,7 +67,7 @@
       <section class="aboutContainer">
         <div class="imgSection">
           <img class="aboutImg" src="./Images/Who Are We.jpg" alt="" />
-          <h1>WHO ARE WE?</h1>
+          <h1>ABOUT US</h1>
           <p class="address">
             254 EAST 2ND STREET, NEW YORK, NY 10009
           </p>
@@ -83,7 +82,7 @@
           </p>
         </div>
       </section>
-      <section>
+      <section class="aboutIntro">
         <div class="introContainer">
           <div class="introSection">
             <h2><u>We’re so glad you’re here!</u></h2>
@@ -96,46 +95,61 @@
               we can help!
             </p>
           </div>
-          <div class="portalLine">
+          <div class="aboutportalLine">
             <hr>
            </div>
         </div>
       </section>
-      <header class="aboutTitle">
-        <h1><u>Get to know us</u></h1>
-      </header>
-      <div class="aboutSubtitles">
-        <h2>Our Pastor's</h2>
+     <section class="aboutUs">
+      <div class="aboutusContainer">
+        <div class="topics">
+          <div class="topicsTitle1">
+          <h3>OUR PASTOR & LEADERSHIP</h3>
+        </div>
+        <div class="topicsPara1">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, 
+            itaque enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione 
+            corrupti aliquid facilis obcaecati labore laudantium. Sed.
+          </p>
+        </div>
+        <div class="topicsButton">
+          <a href="./Leadership.html"><button class="Btn">Learn More</button></a>
+        </div>
+        </div>
+        <div class="topics">
+          <div class="topicsTitle">
+          <h3>OUR BELIEFS</h3>
+        </div>
+        <div class="topicsPara">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, 
+            itaque enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione 
+            corrupti aliquid facilis obcaecati labore laudantium. Sed.
+          </p>
+        </div>
+        <div class="topicsButton">
+          <a href=""><button class="Btn">Learn More</button></a>
+        </div>
+        </div>
+        <div class="topics">
+          <div class="topicsTitle">
+          <h3>WHO ARE WE?</h3>
+        </div>
+        <div class="topicsPara">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, 
+            itaque enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione 
+            corrupti aliquid facilis obcaecati labore laudantium. Sed.
+          </p>
+        </div>
+        <div class="topicsButton">
+          <a href=""><button class="Btn">Learn More</button></a>
+        </div>
+        </div>
+        
       </div>
-      <section class="sliderContainer">
-      <div class="wrapper">
-        <i class="fa-solid fa-angle-left"></i>
-        <ul class="carousel">
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Rosario Self-Pic.jpg" alt="" draggable="false"></div>
-            <h2>ABNER ROSARIO</h2>
-            <span>Senior Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Eliot Self-Pic.jpg" alt="" draggable="false"></div>
-            <h2>Eliot Diaz</h2>
-            <span>ADMINISTRATIVE Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Rosario's.jpg" alt="" draggable="false"></div>
-            <h2>The Rosario's</h2>
-            <span>Senior Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/The Diaz's.jpg" alt="" draggable="false"></div>
-            <h2>The Diaz's</h2>
-            <span>Senior Pastor</span>
-          </li>
-        </ul>
-        <i class="fa-solid fa-angle-right"></i>
-      </div>
-
-    </section>
+     </section>
     </main>
     <header id="socialmediaSection">
         <div class="containerM">
@@ -178,20 +192,19 @@
       </footer>
       <script>
         ScrollReveal({
-        reset: true,
         distance: '60px',
         duration: 2500,
         delay: 400
       });
 
 
-      ScrollReveal().reveal('.introSection h2', {delay: 500, origin: 'top'});
+      ScrollReveal().reveal('.introSection h2', {delay: 500, origin: 'top'},{ viewFactor: .5 });
       ScrollReveal().reveal('.imgSection h1', {delay: 500, origin: 'bottom'});
       ScrollReveal().reveal('.address', {delay: 500, origin: 'top'});
       ScrollReveal().reveal('.sunday', {delay: 500, origin: 'right'});
       ScrollReveal().reveal('.children', {delay: 500, origin: 'left'});
       ScrollReveal().reveal('.wednesday', {delay: 500, origin: 'bottom'});
-      ScrollReveal().reveal('.gallery', {delay: 600, origin: 'top'},{ viewFactor: .5 });
+      
     </script>
     <script src="app.js"></script>
   </body>

@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 *{
    margin: 0;
    padding: 0;
    box-sizing: 0; 
+   font-family: 'Playfair Display', serif;
 }
 
 /*                 Preloader                   */
@@ -94,11 +97,17 @@ hr{
     width: 100%;
 }
 
+.homenavBar{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
 .logo{
     margin: 2rem;
     color: white;
     font-size: 20px;
     padding-left: 10px;
+    text-transform: uppercase;
 }
 .primary-header{
     align-items: center;
@@ -121,7 +130,6 @@ hr{
 
 @supports (backdrop-filter: blur(1rem)){
     .primary-navigation{
-        background: hsla(0, 0%, 48%, 0.32);
         backdrop-filter: blur(1rem);
     }
 }
@@ -208,6 +216,7 @@ hr{
     padding-right: 180px;
     font-size: 25px;
     line-height: 1.9;
+    font-weight: 600;
 }
 
 
@@ -219,11 +228,12 @@ hr{
     justify-content: center;
     align-items: center;
     height: 10vh;
+
 }
 
 .containerP{
     width: 100%;
-    height: 140vh;
+    height: 150vh;
 }
 
 .portal1{
@@ -233,12 +243,12 @@ hr{
     margin: 0;
     padding-top: 50px;
     position: relative;
-    left: 210px;
+    left: 150px;
 }
 
 .subPortal1{
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
 }
 
 .portalImg1{
@@ -273,7 +283,7 @@ hr{
 
 .subPortal2Para{
     color: white;
-    padding: 20px;
+    padding: 0px 20px 0px 20px;
     position: relative;
     bottom: 20px;
     font-size: 16px;
@@ -281,17 +291,17 @@ hr{
 }
 
 .portal3{
-   display: flex;
+    display: flex;
     align-items: center;
     margin: 0;
-    padding-top: 50px;
+    padding-top: 100px;
     position: relative;
-    right: -350px;
+    right: -150px;
 }
 
 .subPortal3{
     width: 450px;
-    height: 300px;
+    height: 250px;
     position: relative;
     left: 55px;
     background-color: #000;
@@ -450,6 +460,10 @@ hr{
 
 
 /*                      About Page                   */
+.aboutportalLine{
+    display: flex;
+    justify-content: center;
+}
 
 .aboutContainer{
     width: 100%;
@@ -469,14 +483,106 @@ hr{
 }
 
 .imgSection h1{
-    font-size: 10vw;
+    font-size: 7vw;
     font-weight: 700;
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
     color: whitesmoke;
-    bottom: 600px;
+    bottom: 520px;
     position: relative;
 }
+
+.imgSection p{
+    position: relative;
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    text-shadow: 12px 15px 20px black;
+    z-index: 9999;
+    font-weight: 600;
+}
+.address{
+    bottom: 380px;  
+    white-space: nowrap;
+}
+
+.sunday{
+    bottom: 370px;
+}
+.children{
+    bottom: 360px;
+}
+.wednesday{
+    bottom: 350px; 
+}
+
+.aboutIntro{
+    background-color: #a7aab65f;
+}
+
+.aboutUs{
+    height: 80vh;
+}
+
+.aboutusContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.topics{
+    height: 330px;
+    width: 320px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.topicsTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.topicsPara{
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 60%;
+    padding: 0 20px 0px 20px;
+}
+
+.topicsButton{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topicsTitle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0 0px 0;
+    font-size: 28px;
+    text-align: center;
+}
+
+.topicsPara1{
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 50%;
+    padding: 0px 10px 15px 10px;
+}
+
 
 /*                   Intro About Section                 */
 
@@ -565,13 +671,18 @@ hr{
 }
 
 .aboutSubtitles{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
     position: relative;
-    top: 60px;
-    left: 50px;
+    top: 80px;
 }
 
 .aboutSubtitles h2{
     font-size: 40px;
+    margin-left: 60px;
+    font-weight: 700;
 }
 
 .sliderContainer{
@@ -692,7 +803,7 @@ hr{
 /*                       Ministries                 */
 
 .ministriesContainer{
-    background-image: url(./Coming\ Soon.jpg);
+    background-image: url(./Images/Coming\ Soon.jpg);
 }
 
 .comingSoon{
