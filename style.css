@@ -515,6 +515,58 @@ hr{
     bottom: 350px; 
 }
 
+
+/*                   Intro About Section                 */
+
+.introContainer{
+    width: 100%;
+    height: 50vh;
+}
+
+.introSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.introSection h2{
+    font-size: 60px;
+    padding: 60px 0 20px 0;
+    color: black;
+    text-shadow: 0 0 10px #fcfc0ca9,
+    0 0 20px #fcfc0c,
+    0 0 40px #fcfc0c,
+    0 0 80px #fcfc0c,
+    0 0 160px #fcfc0c,
+    0 0 10px #fcfc0c;
+}
+
+
+
+.introSection p{
+    font-size: 25px;
+    padding: 0 55px 80px 55px;
+    text-align: center;
+    line-height: 1.9;
+}
+
+@keyframes light {
+    0%{
+        color: black;
+        text-shadow: none;
+    }
+    100%{
+        color: rgba(15, 15, 15, 0.6);
+        text-shadow: 0 0 10px #fcfc0c,
+        0 0 20px #fcfc0c,
+        0 0 40px #fcfc0c,
+        0 0 80px #fcfc0c,
+        0 0 160px #fcfc0c,
+        0 0 10px #fcfc0c;
+    }
+} 
+
 .aboutIntro{
     background-color: #a7aab65f;
 }
@@ -583,79 +635,7 @@ hr{
     padding: 0px 10px 15px 10px;
 }
 
-
-/*                   Intro About Section                 */
-
-.introContainer{
-    width: 100%;
-    height: 50vh;
-}
-
-.introSection{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.introSection h2{
-    font-size: 60px;
-    padding: 60px 0 20px 0;
-    color: black;
-    text-shadow: 0 0 10px #fcfc0ca9,
-    0 0 20px #fcfc0c,
-    0 0 40px #fcfc0c,
-    0 0 80px #fcfc0c,
-    0 0 160px #fcfc0c,
-    0 0 10px #fcfc0c;
-}
-
-
-
-.introSection p{
-    font-size: 25px;
-    padding: 0 55px 80px 55px;
-    text-align: center;
-    line-height: 1.9;
-}
-
-/*              About Gallery               */
-
-.displayLayout{
-    height: auto;
-    padding: 20px;
-}
-
-.galleryTitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 130px 0 60px 0;
-}
-
-.galleryTitle h2{
-    font-size: 80px;
-    line-height: 100px;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
-    line-height: 0.70em;
-    animation: light 3s linear infinite;
-}
-
-@keyframes light {
-    0%{
-        color: black;
-        text-shadow: none;
-    }
-    100%{
-        color: rgba(15, 15, 15, 0.6);
-        text-shadow: 0 0 10px #fcfc0c,
-        0 0 20px #fcfc0c,
-        0 0 40px #fcfc0c,
-        0 0 80px #fcfc0c,
-        0 0 160px #fcfc0c,
-        0 0 10px #fcfc0c;
-    }
-} 
+/*                      Leadership Page                       */
 
 .aboutTitle{
     height: 10vh;
@@ -904,7 +884,7 @@ hr{
 .text span{
     display: inline-block;
     position: relative;
-    font-size: 10vw;
+    font-size: 7vw;
     font-weight: 700;
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 2);
@@ -945,6 +925,7 @@ hr{
     align-items: center;
     text-align: center;
     line-height: 1.9;
+    font-size: 20px;
 }
 
 .sermonVid{
@@ -1021,7 +1002,7 @@ hr{
 .calendarText span{
     display: inline-block;
     position: relative;
-    font-size: 11vw;
+    font-size: 7vw;
     font-weight: 700;
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
@@ -1056,7 +1037,7 @@ hr{
 
 .hero{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     position: relative;
     padding: 150px 0 100px 0;
 }
@@ -1084,7 +1065,7 @@ hr{
 }
 
 .offeringHolder h1{
-    font-size: 11vw;
+    font-size: 7vw;
     font-weight: 700;
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
@@ -1094,7 +1075,7 @@ hr{
 }
 
 .offeringContent{
-    height: 100vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -1106,13 +1087,13 @@ hr{
 }
 
 .offeringInfo .offeringStatment{
-    font-size: 30px;
+    font-size: 25px;
     padding: 95px 80px 15px 80px;
     text-align: center;
 }
 
 .offeringInfo .bibleVerse{
-    font-size: 25px;
+    font-size: 20px;
     padding: 45px 50px 100px 50px;
     text-align: center;
 }
