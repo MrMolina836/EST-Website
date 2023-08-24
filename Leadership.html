@@ -3,42 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c8e4d183c2.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
 </head>
 <body>
-    <header class="aboutTitle">
-        <h1><u>Get to know us</u></h1>
+  <header id="topPage" class="primary-header flex">
+    <div>
+      <div class="logo">East Side Tabernacle</div>
+    </div>
+        <button class="mobile-nav-toggle"
+         aria-controls="primary-navigation" 
+         aria-expanded="false">
+         <span class="sr-only">Menu</span>
+        </button>
+    
+        <nav>
+          <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
+            <li class="active">
+              <a href="./index.html">
+                <span class="homenavBar">Home</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./About.html">
+                <span class="homenavBar">About</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Ministries.html">
+                <span class="homenavBar">Ministries</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Sermons.html">
+                <span class="homenavBar">Sermons</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Offering.html">
+                <span class="homenavBar">Offering</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Event.html">
+                <span class="homenavBar">Events</span>
+              </a>
+            </li>
+            <li class="active">
+              <a href="./Welcome.html">
+                <span class="homenavBar">Welcome</span>
+              </a>
+            </li>
+    
+          </ul>
+        </nav>
       </header>
-      <div class="aboutSubtitles">
-        <h2>Leadership</h2>
+      <section class="leadershipTitle">
+        <h1><u>Meet Our Leaders</u></h1>
+      </section>
+  <section class="leadershipPage">
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/Rosario Self-Pic.jpg" alt="">
       </div>
-      <section class="sliderContainer">
-      <div class="wrapper">
-        <i id="left" class="fa-solid fa-angle-left"></i>
-        <ul class="carousel">
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Rosario Self-Pic.jpg" alt="" draggable="false"></div>
-            <h2>ABNER ROSARIO</h2>
-            <span>Senior Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Eliot Self-Pic.jpg" alt="" draggable="false"></div>
-            <h2>Eliot Diaz</h2>
-            <span>ADMINISTRATIVE Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/Rosario's.jpg" alt="" draggable="false"></div>
-            <h2>The Rosario's</h2>
-            <span>Senior Pastor</span>
-          </li>
-          <li class="card">
-            <div class="carouselImg"><img src="./Images/The Diaz's.jpg" alt="" draggable="false"></div>
-            <h2>The Diaz's</h2>
-            <span>Senior Pastor</span>
-          </li>
-        </ul>
-        <i id="right" class="fa-solid fa-angle-right"></i>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/Eliot Self-Pic.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/Rosario's.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/The Diaz's.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/The Lynch's.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="./Images/The Mojica's.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card1">
+      <div class="imgBx">
+        <img src="./Images/The Quiles's.jpg" alt="">
+      </div>
+      <div class="content">
+        <div class="details">
+          <h2>Abnor Rosariobr<br><span>Senior Pastor</span></h2>
+          <div class="data">
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente delectus excepturi, itaque 
+              enim, molestiae eius in nulla voluptas libero mollitia aspernatur nihil ratione corrupti aliquid 
+              facilis obcaecati labore laudantium. Sed.
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="containerF">
+      <div class="footerBar">
+          <div class="topArrow">
+              <a href="#topPage"><i class="fas fa-arrow-up"> Back to Top</i></a>
+          </div>
+          <ul class="mediaList">
+              <a href=""><li class="mediaItem">Contact</li></a>
+              <a href=""><li class="mediaItem">Offering</li></a>
+          </ul>
+          <div>
+              <img class="estLogoF" src="./Images/EST Logo.PNG" alt="">
+              <p class="footerPara">
+                  254 E 2nd St, New York, NY 10009
+              </p>
+          </div>
+      </div>
+  </div>
+  </footer>
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 </html>

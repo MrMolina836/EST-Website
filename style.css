@@ -637,141 +637,192 @@ hr{
 
 /*                      Leadership Page                       */
 
-.aboutTitle{
-    height: 10vh;
-    width: 100%;
+.leadershipTitle{
+    height: 30vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    align-items: center;
+    background: linear-gradient( 45deg, #f2f1ef, #95999c);
 }
 
-.aboutTitle h1{
+.leadershipTitle h1{
     font-size: 60px;
 }
 
-.aboutSubtitles{
-    height: 10vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 80px;
-}
-
-.aboutSubtitles h2{
-    font-size: 40px;
-    margin-left: 60px;
-    font-weight: 700;
-}
-
-.sliderContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70vh;
-    padding: 0 35px;
-}
-
-.wrapper{
-    max-width: 1100px;
-    width: 100%;
-    position: relative;
-}
-
-.wrapper i{
-    height: 50px;
-    width: 50px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.25rem;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-
-.wrapper i:first-child{
-    left: -22px;
-}
-
-.wrapper i:last-child{
-    right: -22px;
-}
-
-.wrapper .carousel{
+.leadershipPage{
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: calc((100% / 3) - 12px);
-    gap: 16px;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scrollbar-width: 0;
-    scroll-behavior: smooth;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 12.5rem);
+    row-gap: 350px;
+    padding: 100px;
+    height: 200vh;
+    background: linear-gradient(45deg,#bdc3c7, #364b61) ;
+   
 }
 
-.carousel::-webkit-scrollbar{
-    display: none;
+.card{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    text-align: center;
+    margin: auto;
 }
 
-.carousel :where(.card, .carouselImg){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.card1{
+    position: relative;
+    width: 350px;
+    height: 200px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    text-align: center;
+    margin: auto;
+    bottom: 100px;
+    left: 420px;
 }
 
-.carousel.dragging{
-    scroll-behavior: auto;
-    scroll-snap-type: none;
+.card:hover{
+    height: 490px;
 }
 
-.carousel.dragging .card{
-    cursor: grab;
-    user-select: none;
+.card1:hover{
+    height: 490px;
 }
 
-.carousel .card{
-    scroll-snap-align: start;
-    height: 342px;
-    list-style: none;
-    background-color: #fff;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-bottom: 15px
+.imgBx{
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    transition: 0.5s;
 }
 
-.card .carouselImg{
-    background-color: #000;
-    width: 148px;
-    height: 148px;
-    border-radius: 50%
+.card:hover .imgBx{
+    width: 250px;
+    height: 250px;
 }
 
-.card .carouselImg img{
-    width: 140px;
-    height: 140px;
+.card1:hover .imgBx{
+    width: 250px;
+    height: 250px;
+}
+
+.imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #fff;
 }
 
-.card h2 {
+.card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card1 .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card .content .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(200px);
+}
+
+.card1 .content .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(200px);
+}
+
+.card:hover .content .details{
+    transform: translateY(0px);
+}
+
+.card1:hover .content .details{
+    transform: translateY(0px);
+}
+
+.card .content .details h2{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.card1 .content .details h2{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.card .content .details h2 span{
+    font-size: 0.75em;
     font-weight: 500;
-    font-size: 1.56rem;
-    margin: 30px 0 5px;
+    opacity: 0.5;
 }
 
-.card span{
-    color: #6a6d78;
-    font-size: 1.31rem;
+.card1 .content .details h2 span{
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
 }
+
+.card .content .details .data{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card1 .content .details .data{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.card .content .details .data h3{
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.card1 .content .details .data h3{
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
 
 @media screen and (max-width: 900px){
     .wrapper .carousel{
