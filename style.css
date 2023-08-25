@@ -654,7 +654,7 @@ hr{
     grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(2, 12.5rem);
     row-gap: 350px;
-    padding: 100px;
+    padding: 100px 0 ;
     height: 200vh;
     background: linear-gradient(45deg,#bdc3c7, #364b61) ;
    
@@ -1277,6 +1277,10 @@ hr{
 }
 
 /*                    Our Beliefs              */
+
+.wholeSection{
+    background: linear-gradient( 45deg, #f2f1ef, #95999c);
+}
 
 .beliefSection{
     min-height: 100vh;
