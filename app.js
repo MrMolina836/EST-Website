@@ -1,34 +1,21 @@
-window.addEventListener('load', () => {
-    const preloader = document.querySelector('.preloader');
-    preloader.classList.add('preloader-finish');
+window.addEventListener("load", () => {
+  const preloader = document.querySelector(".preloader");
+  preloader.classList.add("preloader-finish");
 });
 
+const primaryNav = document.querySelector(".primary-navigation");
+const navToggle = document.querySelector(".mobile-nav-toggle");
 
+navToggle.addEventListener("click", () => {
+  const visibility = primaryNav.getAttribute("data-visible");
 
-const primaryNav = document.querySelector('.primary-navigation');
-const navToggle = document.querySelector('.mobile-nav-toggle');
+  if (visibility === "false") {
+    primaryNav.setAttribute("data-visible", true);
+    navToggle.setAttribute("aria-expanded", true);
+  } else if (visibility === "true") {
+    primaryNav.setAttribute("data-visible", false);
+    navToggle.setAttribute("aria-expanded", false);
+  }
+});
 
-navToggle.addEventListener('click', () => {
-    const visibility = primaryNav.getAttribute('data-visible')
-
-    if (visibility ==="false"){
-        primaryNav.setAttribute('data-visible', true);
-        navToggle.setAttribute('aria-expanded', true);
-    }else if (visibility === "true"){
-        primaryNav.setAttribute('data-visible', false);
-        navToggle.setAttribute('aria-expanded', false);
-    }
-})
-
-const carousel = document.querySelector('.carousel');
-const arrowBtns = document.querySelectorAll('.wrapper i');
-const firstCardWidth = carousel.querySelector(".card").offsetWidth;
-
-let isDragging = false, startX, startScrollLeft;
-
-arrowBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-        carousel.scrollLeft += btn.id === "left" ? -firstCardWidth : firstCardWidth;
-    })
-})
 
