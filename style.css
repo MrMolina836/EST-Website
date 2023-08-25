@@ -642,7 +642,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient( 45deg, #f2f1ef, #95999c);
+    
 }
 
 .leadershipTitle h1{
@@ -656,7 +656,7 @@ hr{
     row-gap: 350px;
     padding: 100px 0 ;
     height: 200vh;
-    background: linear-gradient(45deg,#bdc3c7, #364b61) ;
+   
    
 }
 
@@ -1169,6 +1169,7 @@ hr{
     align-items: center;
     text-align: center;
     margin: 60px 20px 0 20px;
+    height: 100vh;
 }
 
 .welcomeContainer .heading{
