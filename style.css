@@ -830,6 +830,42 @@ hr{
     }
 }
 
+/*                       Who are we?                  */
+
+.whoContainer{
+    min-height: 100vh;
+    
+}
+
+.whoImage{
+    height: 500px;
+    width: 100%;
+}
+
+.whoImage Img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.whoPara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.whoPara h1{
+    padding: 25px 0;
+    font-size: 60px;
+}
+
+.whoPara p{
+    padding: 25px 25px 130px 25px;
+    text-align: center;
+}
+
 
 /*                       Ministries                 */
 
@@ -1162,13 +1198,18 @@ hr{
 }
 
 /*                       Welcome Page                          */
+
+.welcomeBody{
+    background: linear-gradient( 45deg, #f2f1ef, #95999c);
+}
+
 .welcomeContainer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 60px 20px 0 20px;
+    margin: 60px 20px 30px 20px;
+    padding-bottom: 60px;
     height: 100vh;
 }
 
@@ -1183,42 +1224,13 @@ hr{
     padding-bottom: 10px;
 }
 
-.galleryHolder{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.photo-gallery{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
-    position: relative;
-    height: 100%;
-    bottom: 300px;
-}
-
-.pic{
-    position: relative;
-    height: 280px;
-    border-radius: 10px;
-}
-
-.pic img{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px #555
-}
 
 .videoHolder{
-    height: 450px;
-    width: 550px;
+    height: 100%;
+    width: 100%;
     position: relative;
-    top: 335px;
     z-index: 12;
+    
 }
 
 .video{
@@ -1226,16 +1238,15 @@ hr{
 }
 
 .whatsnextContainer{
-    height: 80vh;
+    height: 90vh;
     width: 100%;
-    background-color: #a7aab65f;
 }
 
 .nextSteps{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 40px;
+    padding-top: 85px;
 }
 
 .nextSteps h1{
@@ -1327,6 +1338,7 @@ hr{
     line-height: 1.6;
     font-size: 1.4rem;
 }
+
 
 .faq.active .answer {
     max-height: 300px;
