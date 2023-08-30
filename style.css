@@ -252,7 +252,7 @@ hr{
 }
 
 .portalImg1{
-    height: 450px;
+    height: 100%;
     width: 100%;
     border-radius: 20px;
     box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
@@ -291,6 +291,7 @@ hr{
 }
 
 .portal3{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -502,7 +503,7 @@ hr{
     color: rgb(247, 247, 247);
     font-size: 30px;
     text-shadow: 12px 15px 20px black;
-    z-index: 9999;
+    z-index: 100;
     font-weight: 600;
 }
 .address{
@@ -1030,6 +1031,8 @@ hr{
 
 .sermonVidContainer{
     display: flex;
+    align-items: center;
+    width: 100%;
     justify-content: center;
     padding-top: 90px;
 }
@@ -1376,7 +1379,11 @@ svg{
 
 
 /* Small Phones */
-@media screen and (max-width: 480px){
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 480px) 
+  and (orientation: portrait) { 
+
     /*          Home Page           */
     .homeText{
         font-size: 30px;
@@ -1398,23 +1405,22 @@ svg{
         left: 20px;
     }
     .subPortal1{
-        width: 250px;
+        width: 100%;
         height: 260px;
     }
     .portalImg1{
-        width: 250px;
-        height: 260px;
+        width: 100%;
+        height: 100%;
     }
     .subPortal2{
         height: 200px;
         border-radius: 0px;
         width: 300px;
         right: 40px;
+        padding: 15px;
     }
     .subPortal2 h1{
         font-size: 30px;
-        margin-top: 0;
-        padding: 48px 0 5px 0;
     }
     .subPortal2Para{
         padding: 0 2px 0 2px;
@@ -1435,7 +1441,7 @@ svg{
     .subPortal3{
         height: 200px;
         border-radius: 0px;
-        width: 300px;
+        width: 100%;
         left: 40px;
     }
     .subPortal3 h1{
@@ -1445,11 +1451,11 @@ svg{
     }
     
     .subportal3{
-        width: 250px;
+        width: 100%;
         height: 260px;
     }
     .portalImg3{
-        width: 250px;
+        width: 100%;
         height: 260px;
     }
     .portalBtn3{
@@ -1473,7 +1479,7 @@ svg{
     /*            About Page           */
     .imgSection h1{
         font-size: 12vw;
-        bottom: 360px;
+        bottom: 420px;
     }
     .imgSection p{
         color: whitesmoke;
@@ -1484,26 +1490,59 @@ svg{
         padding: 0px 15px;
     }
     .address{
-        bottom: 280px;  
+        bottom: 330px;  
         white-space: nowrap;
     }
     .sunday{
-        bottom: 270px;
+        bottom: 320px;
     }
     .children{
-        bottom: 260px;
+        bottom: 310px;
     }
     .wednesday{
-        bottom: 250px; 
+        bottom: 300px; 
     }
     .introSection h2{
         font-size: 30px;
+        padding: 20px 0;
     }
     .introSection p{
         font-size: 20px;
-        padding: 0 40px 80px 40px;
+        padding: 0 20px 50px 20px;
+    }
+
+    .aboutUs{
+        height: 150vh;
+    }
+
+    .topics{
+        width: 60%;
+
+    }
+
+    .aboutusContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
     
+    /*           Leadership                  */
+
+    .leadershipTitle h1{
+        font-size: 45px;
+        
+    }
+
+    .leadershipPage{
+        grid-template-columns: repeat(1, 2fr);
+        grid-template-rows: repeat(1, 12.5rem);
+        min-height: 500vh;
+    }
+
+    .card1{
+        left: 0;
+    }
 
     /*           Ministries           */
     .minTitle h1{
@@ -1538,15 +1577,12 @@ svg{
         padding-top: 10px;
     }
 
-    .sermonVidContainer{
-        width: 100%;
-        align-items: center;
-    }
     .sermonVid{
         height: 60vh;
+        padding: 0;
     }
     .sermonVidImg{
-        width: 100%;
+        width: 55%;
         height: auto;
         position: relative;
         left: -60px;
@@ -1556,9 +1592,9 @@ svg{
         height: 260px;
     }
     .sermonVidInfo{
-        height: 200px;
+        height: 225px;
         border-radius: 0px;
-        width: 100%;
+        width: 40%;
         top: 0;
         right: 15px;
         text-align: center;
@@ -1569,16 +1605,16 @@ svg{
         
     }
     .sermonVidInfo p{
-        padding: 25px 10px 20px 10px;
+        padding: 10px 5px 15px 5px;
     }
     
 
     /*             Offering Page             */
     .offeringContent{
-        height: 140vh;
+        height: 120vh;
     }
     .offeringHolder h1{
-        bottom: 280px;
+        bottom: 330px;
         font-size: 12vw;
     }
     .offeringInfo .offeringStatment{
@@ -1607,8 +1643,42 @@ svg{
     .hero{
         height: 100%;
     }
-    .evo-calendar{
+    .evo-calendar {
+        width: 90%;
+    }
+
+    /*                          Welcome                   */
+
+    .welcomeContainer{
+        margin: 60px 5px 10px 5px;
+        padding-bottom: 0;
+    }
+
+    .welcomeContainer .heading {
+        width: 75%;
+    }
+
+    .welcomeVideo{
+        height: 400px;
+        width: 400px;
+        padding-top: 50px;
+    }
+
+    .actualVid{
+        height: 100%;
         width: 100%;
+    }
+    .whatsnextContainer{
+        height: 180vh;
+    }
+
+    .options{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .optionsContainer{
+        width: 55%;
     }
 }
 
