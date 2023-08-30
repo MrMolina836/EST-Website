@@ -233,35 +233,35 @@ hr{
 
 .containerP{
     width: 100%;
-    height: 150vh;
+    height: 160vh;
 }
 
 .portal1{
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin: 0;
     padding-top: 50px;
     position: relative;
-    left: 150px;
 }
 
 .subPortal1{
     height: 450px;
-    width: 450px;
+    width: 40%;
 }
 
 .portalImg1{
     height: 450px;
-    width: 450px;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
     object-fit: cover;
 }
 
 .subPortal2{
-    width: 400px;
-    height: 200px;
+    width: 25%;
+    height: 250px;
     position: relative;
     right: 65px;
     background-color: #000;
@@ -293,14 +293,14 @@ hr{
 .portal3{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 0;
-    padding-top: 100px;
+    padding-top: 150px;
     position: relative;
-    right: -150px;
 }
 
 .subPortal3{
-    width: 450px;
+    width: 25%;
     height: 250px;
     position: relative;
     left: 55px;
@@ -322,8 +322,13 @@ hr{
     margin-top: 10px;
 }
 
+.subportal3{
+    width: 40%;
+    height: 100%;
+}
+
 .portalImg3{
-   width: 450px;
+   width: 100%;
    height: 450px;
    border-radius: 20px;
    position: relative;
@@ -488,7 +493,7 @@ hr{
     letter-spacing: 1vw;
     text-shadow: 0 15px 25px rgba(0, 0, 0, 3.5);
     color: whitesmoke;
-    bottom: 520px;
+    bottom: 550px;
     position: relative;
 }
 
@@ -501,18 +506,18 @@ hr{
     font-weight: 600;
 }
 .address{
-    bottom: 380px;  
+    bottom: 420px;  
     white-space: nowrap;
 }
 
 .sunday{
-    bottom: 370px;
+    bottom: 410px;
 }
 .children{
-    bottom: 360px;
+    bottom: 400px;
 }
 .wednesday{
-    bottom: 350px; 
+    bottom: 390px; 
 }
 
 
@@ -584,10 +589,12 @@ hr{
 
 .topics{
     height: 330px;
-    width: 320px;
+    width: 25%;
     background-color: #000;
     color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     border-radius: 20px;
 }
@@ -615,6 +622,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .topicsTitle1{
@@ -683,7 +691,7 @@ hr{
     text-align: center;
     margin: auto;
     bottom: 100px;
-    left: 420px;
+    left: 535px;
 }
 
 .card:hover{
@@ -1262,8 +1270,10 @@ hr{
 
 .optionsContainer{
     height: 300px;
-    width: 350px;
+    width: 25%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     border-radius: 10px;
@@ -1616,3 +1626,10 @@ svg{
         font-size: 25px;
     }
 }
+
+
+
+
+
+
+
