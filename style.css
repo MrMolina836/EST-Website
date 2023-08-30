@@ -1267,6 +1267,7 @@ hr{
 
 .options{
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
     padding-top: 40px;
 }
@@ -1669,12 +1670,16 @@ svg{
         width: 100%;
     }
     .whatsnextContainer{
-        height: 180vh;
+        height: 100%;
+    }
+    .optionSection{
+        height: 160vh;
     }
 
     .options{
         flex-direction: column;
-        align-items: center;
+        height: 100%;
+        padding-top: 0;
     }
 
     .optionsContainer{
