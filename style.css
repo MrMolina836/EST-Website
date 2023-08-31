@@ -1351,7 +1351,9 @@ svg {
 }
 
 /* Small Phones */
-@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+
+
+@media only screen and (max-device-width: 480px) {
   /*          Home Page           */
   .homeText {
     font-size: 30px;
@@ -1649,7 +1651,7 @@ svg {
   }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (device-width: 768px) {
   .homeText {
     font-size: 50px;
     bottom: 400px;
