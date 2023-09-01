@@ -169,7 +169,7 @@ hr {
     aspect-ratio: 1;
     top: 2rem;
     right: 2rem;
-    z-index: 1000;
+    z-index: 1001;
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
