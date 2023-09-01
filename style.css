@@ -1991,6 +1991,9 @@ svg {
       .wednesday{
         bottom: 320px;
       }
+      .topics{
+        width: 70%;
+      }
       .topicsTitle1{
         font-size: 25px;
       }
