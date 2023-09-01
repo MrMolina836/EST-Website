@@ -161,7 +161,7 @@ hr {
   .mobile-nav-toggle {
     display: block;
     position: absolute;
-    background: url(../icon-hamburger.svg);
+    background: url(./icon-hamburger.svg);
     background-repeat: no-repeat;
     background-color: transparent;
     border: 0;
@@ -173,7 +173,7 @@ hr {
   }
 
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url(../icon-close.svg);
+    background-image: url(./icon-close.svg);
   }
 }
 
