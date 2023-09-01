@@ -1962,3 +1962,12 @@ svg {
         font-size: 25px;
       }
 }
+
+@media screen and (max-width: 439px){
+    .homeText{
+        bottom: 545px;
+    }
+    .homeSubtext{
+        bottom: 510px;
+    }
+}
