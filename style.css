@@ -1973,23 +1973,23 @@ svg {
     }
     .imgSection h1{
         font-size: 12vw;
-        bottom: 480px;
+        bottom: 440px;
       }
       .imgSection p{
         font-size: 18px;
         padding: 0 10px;
       }
       .address{
-        bottom: 390px;
+        bottom: 350px;
       }
       .sunday{
-        bottom: 380px;
+        bottom: 340px;
       }
       .children{
-        bottom: 370px;
+        bottom: 330px;
       }
       .wednesday{
-        bottom: 360px;
+        bottom: 320px;
       }
       .topicsTitle1{
         font-size: 25px;
@@ -1997,17 +1997,31 @@ svg {
       .topicsTitle{
         font-size: 25px;
       }
+      .leadershipPage{
+        grid-template-rows: repeat(6, 19rem);
+        min-height: 500vh;
+      }
+      .card{
+        height: 490px;
+      }
+      .card .content .details{
+        height: 45%;
+        transform: none;
+      }
+      .imgBx{
+        width: 250px;
+        height: 250px;
+      }
+      .card1{
+        height: 490px;
+      }
+      .card1 .content .details{
+        height: 45%;
+        transform: none;
+      }
+      .imgBx1{
+        width: 250px;
+        height: 250px;
+      }
     }
-    @media (hover: none){
-        .card {
-            position: relative;
-            width: 350px;
-            height: 200px;
-            background: #fff;
-            border-radius: 20px;
-            box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
-            transition: 0.5s;
-            text-align: center;
-            margin: auto;
-        }
-    }
+    
