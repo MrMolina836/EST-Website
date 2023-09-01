@@ -1317,7 +1317,7 @@ svg {
 /* Small Phones */
 
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   /*          Home Page           */
   .homeText {
     font-size: 30px;
