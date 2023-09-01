@@ -1,7 +1,3 @@
-window.addEventListener("load", () => {
-  const preloader = document.querySelector(".preloader");
-  preloader.classList.add("preloader-finish");
-});
 
 const primaryNav = document.querySelector(".primary-navigation");
 const navToggle = document.querySelector(".mobile-nav-toggle");
