@@ -54,6 +54,7 @@ hr {
   gap: var(--gap, 1rem);
 }
 
+
 /*                    Nav Section                   */
 
 #nav {
@@ -1970,4 +1971,43 @@ svg {
     .homeSubtext{
         bottom: 510px;
     }
-}
+    .imgSection h1{
+        font-size: 12vw;
+        bottom: 480px;
+      }
+      .imgSection p{
+        font-size: 18px;
+        padding: 0 10px;
+      }
+      .address{
+        bottom: 390px;
+      }
+      .sunday{
+        bottom: 380px;
+      }
+      .children{
+        bottom: 370px;
+      }
+      .wednesday{
+        bottom: 360px;
+      }
+      .topicsTitle1{
+        font-size: 25px;
+      }
+      .topicsTitle{
+        font-size: 25px;
+      }
+    }
+    @media (hover: none){
+        .card {
+            position: relative;
+            width: 350px;
+            height: 200px;
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+            transition: 0.5s;
+            text-align: center;
+            margin: auto;
+        }
+    }
