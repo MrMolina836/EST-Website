@@ -1068,7 +1068,7 @@ hr {
   width: 62%;
   top: 15%;
   left: 20%;
-  color: rgba(255, 251, 251, 0.836);
+  color: whitesmoke;
   position: absolute;
   text-align: center;
 }
@@ -1354,7 +1354,7 @@ svg {
 /* Small Phones */
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-device-width: 480px) {
   /*          Home Page           */
   .homeText {
     font-size: 30px;
@@ -1838,12 +1838,13 @@ svg {
     }
     .homeText {
         font-size: 9vw;
-        bottom: 425px;
+        bottom: 500px;
         letter-spacing: .5vw;
     }
     .homeSubtext{
-        bottom: 400px;
+        bottom: 470px;
         padding: 15px 10px;
+        line-height: 1.7;
     }
     .subPortal2{
         width: 270px;
@@ -1878,27 +1879,27 @@ svg {
         bottom: 0;
         top: 5px;
     }
-
+    /*                  About Page                    */
 
     .imgSection h1{
         font-size: 12vw;
-        bottom: 390px;
+        bottom: 450px;
     }
     .imgSection p{
         font-size: 17px;
         padding: 0 10px;
     }
     .address{
-        bottom: 300px;
+        bottom: 370px;
       }
       .sunday{
-        bottom: 290px;
+        bottom: 360px;
       }
       .children{
-        bottom: 280px;
+        bottom: 350px;
       }
       .wednesday{
-        bottom: 270px;
+        bottom: 340px;
       }
       .introSection p {
         font-size: 15px;
@@ -1909,6 +1910,12 @@ svg {
       .topics{
         width: 70%;
       }
+      .introSection{
+        height: 90%;
+    }
+    .introSection p{
+        padding: 0 20px 30px 20px;
+    }
       .topicsTitle1{
         font-size: 25px;
         padding: 0;
@@ -1970,6 +1977,11 @@ svg {
         padding: 5px 10;
       }
 
+
+      .calendarText{
+        top: 18%;
+        font-weight: 700;
+      }
 
       .welcomeContainer .heading h3{
         font-size: 50px;
