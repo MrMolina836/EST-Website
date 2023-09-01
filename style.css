@@ -1359,13 +1359,13 @@ svg {
   .homeText {
     font-size: 30px;
     padding: 0px;
-    bottom: 380px;
+    bottom: 420px;
     width: 100%;
   }
   .homeSubtext {
     font-size: 16px;
     line-height: 1.5;
-    bottom: 360px;
+    bottom: 400px;
     text-align: center;
     padding: 15px 25px;
   }
@@ -1389,6 +1389,7 @@ svg {
     width: 300px;
     right: 40px;
     padding: 15px;
+    border-radius: 20px;
   }
   .subPortal2 h1 {
     font-size: 30px;
@@ -1413,6 +1414,7 @@ svg {
     border-radius: 0px;
     width: 100%;
     left: 40px;
+    border-radius: 20px;
   }
   .subPortal3 h1 {
     font-size: 30px;
@@ -1478,11 +1480,11 @@ svg {
   }
   .introSection p {
     font-size: 20px;
-    padding: 0 20px 50px 20px;
+    padding: 0 20px 40px 20px;
   }
 
   .aboutUs {
-    height: 150vh;
+    height: 160vh;
   }
 
   .topics {
@@ -1494,6 +1496,12 @@ svg {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+  }
+  .topicsPara1{
+    font-size: 14px;
+  }
+  .topicsPara{
+    font-size: 14px;
   }
 
   /*           Leadership                  */
@@ -1566,6 +1574,7 @@ svg {
     top: 0;
     right: 15px;
     text-align: center;
+    border-radius: 20px;
   }
   .sermonVidInfo h1 {
     font-size: 28px;
@@ -1821,14 +1830,11 @@ svg {
 
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     .logo{
         font-size: 15px;
         padding: 0;
         margin: 2rem 1rem;
-    }
-    .mobile-nav-toggle{
-        right: 1.5rem;
     }
     .homeText {
         font-size: 9vw;
