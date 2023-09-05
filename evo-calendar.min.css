@@ -21,7 +21,7 @@ button:focus {
   position: relative;
   background-color: #fbfbfb;
   color: #5a5a5a;
-  width: 90%;
+  width: 100%;
   -webkit-box-shadow: 0 10px 50px -20px #4f5f76;
   box-shadow: 0 10px 50px -20px #4f5f76;
   margin: 0 auto;
