@@ -17,7 +17,7 @@ a {
 }
 
 #content {
-  background-color: #f2f1ef;
+  background:linear-gradient(45deg, #f2f1ef, #95999c);;
 }
 
 html,
@@ -424,6 +424,10 @@ hr {
 }
 
 /*                      About Page                   */
+#aboutSection{
+    background: linear-gradient(45deg, #f2f1ef, #95999c);;
+}
+
 .aboutportalLine {
   display: flex;
   justify-content: center;
@@ -521,7 +525,7 @@ hr {
 }
 
 .aboutIntro {
-  background-color: #a7aab65f;
+  background-color: #dfdfdf5f;
 }
 
 .aboutUs {
@@ -1545,7 +1549,7 @@ svg {
     padding: 0 5px;
   }
   .sermonVidInfo p {
-    padding: 10px 5px 15px 5px;
+    padding: 10px 5px 10px 5px;
   }
 
   /*             Offering Page             */
@@ -1920,7 +1924,7 @@ svg {
         padding: 15px;
       }
       .sermonVidImg{
-        width: 280px;
+        width: 60%;
         height: 250px;
       }
       .sermonVidImg img{
@@ -2033,5 +2037,6 @@ svg {
         width: 250px;
         height: 250px;
       }
+      
     }
     
