@@ -2000,6 +2000,13 @@ svg {
       .topicsTitle{
         font-size: 25px;
       }
+        .Btn {
+            font-size: 10px;
+      bottom: 10px;
+      border-radius: 50px;
+      padding: 0.45rem;
+      text-transform: uppercase;
+        }
       .leadershipPage{
         grid-template-rows: repeat(6, 19rem);
         min-height: 500vh;
