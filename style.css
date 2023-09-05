@@ -2009,7 +2009,7 @@ svg {
         }
       .leadershipPage{
         grid-template-rows: repeat(6, 19rem);
-        min-height: 500vh;
+        min-height: 750vh;
       }
       .card{
         height: 490px;
