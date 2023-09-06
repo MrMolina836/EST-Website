@@ -2012,8 +2012,8 @@ svg {
       text-transform: uppercase;
         }
       .leadershipPage{
-        grid-template-rows: repeat(6, 19rem);
-        min-height: 750vh;
+        grid-template-rows: repeat(6, 19.5rem);
+        min-height: 650vh;
       }
       .card{
         height: 490px;
