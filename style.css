@@ -1798,175 +1798,6 @@ svg {
 
 }
 
-@media screen and (max-width: 391px) {
-    .logo{
-        font-size: 15px;
-        padding: 0;
-        margin: 2rem 1rem;
-    }
-    .homeText {
-        font-size: 9vw;
-        bottom: 500px;
-        letter-spacing: .5vw;
-    }
-    .homeSubtext{
-        bottom: 470px;
-        padding: 15px 10px;
-        line-height: 1.7;
-    }
-    .subPortal2{
-        width: 270px;
-        height: 150px;
-        border-radius: 20px;
-    }
-    .subPortal2 h1{
-        font-size: 30px;
-        top: 1px;
-        margin: 0;
-    }
-    .subPortal2Para{
-        font-size: 14px;
-        padding: 0;
-        top: 2px;
-    }
-    .Btn{
-        top: 2px;
-    }
-    .subPortal3{
-        width: 270px;
-        height: 150px;
-        border-radius: 20px;
-    }
-    .subPortal3 h1{
-        font-size: 30px;
-        top: 1px;
-        margin: 0;
-        padding: 0;
-    }
-    .portalBtn3{
-        bottom: 0;
-        top: 5px;
-    }
-    /*                  About Page                    */
-
-    .imgSection h1{
-        font-size: 12vw;
-        bottom: 450px;
-    }
-    .imgSection p{
-        font-size: 17px;
-        padding: 0 10px;
-    }
-    .address{
-        bottom: 370px;
-      }
-      .sunday{
-        bottom: 360px;
-      }
-      .children{
-        bottom: 350px;
-      }
-      .wednesday{
-        bottom: 340px;
-      }
-      .introSection p {
-        font-size: 15px;
-      }
-      .aboutUs{
-        height: 170vh;
-      }
-      .topics{
-        width: 70%;
-      }
-      .introSection{
-        height: 90%;
-    }
-    .introSection p{
-        padding: 0 20px 30px 20px;
-    }
-      .topicsTitle1{
-        font-size: 25px;
-        padding: 0;
-      }
-      .topicsPara1{
-        font-size: 15px;
-        position: relative;
-        top: 10px;
-      }
-      .topicsButton {
-        padding-bottom: 0;
-        position: relative;
-        top: 10px;
-      }
-      .topicsTitle{
-        font-size: 25px;
-        padding: 0;
-      }
-      .topicsPara{
-        font-size: 15px;
-        position: relative;
-        top: 10px;
-      }
-
-
-      .leadershipTitle h1{
-        font-size: 40px;
-      }
-      .leadershipPage{
-        min-height: 520vh;
-      }
-
-
-      .text{
-        top: 36%;
-      }
-      .sermonContainer p{
-        padding: 15px;
-      }
-      .sermonVidImg{
-        width: 60%;
-        height: 250px;
-      }
-      .sermonVidImg img{
-        width: 100%;
-        height: 250px;
-      }
-      .sermonVidInfo{
-        border-radius: 20px;
-        width: 300px;
-        height: 200px;
-      }
-      .sermonVidInfo h1{
-        font-size: 28px;
-        padding: 0 2px;
-      }
-      .sermonVidInfo p{
-        font-size: 15px;
-        padding: 5px 10;
-      }
-
-
-      .calendarText{
-        top: 18%;
-        font-weight: 700;
-      }
-
-      .welcomeContainer .heading h3{
-        font-size: 50px;
-      }
-      .welcomeVideo{
-        width: 100%;
-      }
-      .nextSteps h1{
-        font-size: 50px;
-      }
-      .optionsContainer{
-        width: 70%;
-      }
-      .optionsContainer h2{
-        font-size: 25px;
-      }
-}
 
 @media screen and (max-width: 439px){
     .homeText{
@@ -2012,8 +1843,8 @@ svg {
       text-transform: uppercase;
         }
       .leadershipPage{
-        grid-template-rows: repeat(6, 19.5rem);
-        min-height: 650vh;
+        grid-template-rows: repeat(6, 25rem);
+        min-height: 550vh;
       }
       .card{
         height: 490px;
@@ -2042,5 +1873,174 @@ svg {
         width: 70%;
       }
       
+    }
+    @media screen and (max-width: 391px) {
+        .logo{
+            font-size: 15px;
+            padding: 0;
+            margin: 2rem 1rem;
+        }
+        .homeText {
+            font-size: 9vw;
+            bottom: 500px;
+            letter-spacing: .5vw;
+        }
+        .homeSubtext{
+            bottom: 470px;
+            padding: 15px 10px;
+            line-height: 1.7;
+        }
+        .subPortal2{
+            width: 270px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .subPortal2 h1{
+            font-size: 30px;
+            top: 1px;
+            margin: 0;
+        }
+        .subPortal2Para{
+            font-size: 14px;
+            padding: 0;
+            top: 2px;
+        }
+        .Btn{
+            top: 2px;
+        }
+        .subPortal3{
+            width: 270px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .subPortal3 h1{
+            font-size: 30px;
+            top: 1px;
+            margin: 0;
+            padding: 0;
+        }
+        .portalBtn3{
+            bottom: 0;
+            top: 5px;
+        }
+        /*                  About Page                    */
+    
+        .imgSection h1{
+            font-size: 12vw;
+            bottom: 450px;
+        }
+        .imgSection p{
+            font-size: 17px;
+            padding: 0 10px;
+        }
+        .address{
+            bottom: 370px;
+          }
+          .sunday{
+            bottom: 360px;
+          }
+          .children{
+            bottom: 350px;
+          }
+          .wednesday{
+            bottom: 340px;
+          }
+          .introSection p {
+            font-size: 15px;
+          }
+          .aboutUs{
+            height: 170vh;
+          }
+          .topics{
+            width: 70%;
+          }
+          .introSection{
+            height: 90%;
+        }
+        .introSection p{
+            padding: 0 20px 30px 20px;
+        }
+          .topicsTitle1{
+            font-size: 25px;
+            padding: 0;
+          }
+          .topicsPara1{
+            font-size: 15px;
+            position: relative;
+            top: 10px;
+          }
+          .topicsButton {
+            padding-bottom: 0;
+            position: relative;
+            top: 10px;
+          }
+          .topicsTitle{
+            font-size: 25px;
+            padding: 0;
+          }
+          .topicsPara{
+            font-size: 15px;
+            position: relative;
+            top: 10px;
+          }
+    
+    
+          .leadershipTitle h1{
+            font-size: 40px;
+          }
+          .leadershipPage{
+            min-height: 720vh;
+          }
+    
+    
+          .text{
+            top: 36%;
+          }
+          .sermonContainer p{
+            padding: 15px;
+          }
+          .sermonVidImg{
+            width: 60%;
+            height: 250px;
+          }
+          .sermonVidImg img{
+            width: 100%;
+            height: 250px;
+          }
+          .sermonVidInfo{
+            border-radius: 20px;
+            width: 300px;
+            height: 200px;
+          }
+          .sermonVidInfo h1{
+            font-size: 28px;
+            padding: 0 2px;
+          }
+          .sermonVidInfo p{
+            font-size: 15px;
+            padding: 5px 10;
+          }
+    
+    
+          .calendarText{
+            top: 18%;
+            font-weight: 700;
+          }
+    
+          .welcomeContainer .heading h3{
+            font-size: 50px;
+          }
+          .welcomeVideo{
+            width: 100%;
+          }
+          .nextSteps h1{
+            font-size: 50px;
+          }
+          .optionsContainer{
+            width: 70%;
+          }
+          .optionsContainer h2{
+            font-size: 25px;
+          }
     }
     
